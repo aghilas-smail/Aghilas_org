@@ -1,0 +1,14 @@
+Logo de Pixilib
+Data Scientist 
+Data Scientist 
+Pixilib · StagePixilib · Stage
+avr. 2023 - sept. 2023 · 6 moisavr. 2023 - sept. 2023 · 6 mois
+Toulouse, Occitanie, France · Sur siteToulouse, Occitanie, France · Sur site
+ m’a permis de trouver cet emploiLinkedIn m’a permis de trouver cet emploi
+Deep Learning for Medical Imaging : 
+- Traitement d'imageries médicales : preprocessing des images pour avoir une meilleure qualité des données (Normalisation, redimensionnement, seuillage des zones d'intérêts, echantillonage ... )
+- Implémentation des modèles de segmentation d'images 3D avec le Deep Learning : utilisation
+des techniques de computer vision pour détecter le volume tumoral métabolique total (TMTV) des patients.
+- Optimisation des modèles de Deep Learning : optimisation des hyperparamétres et au niveau des architectures des réseaux de neurones.
+- Mise en production des modèles : déployement des modéles sur torchserve (en utilisant un API gRPC) dont l'image est créée sur un conteneur Docker.Deep Learning for Medical Imaging : - Traitement d'imageries médicales : preprocessing des images pour avoir une meilleure qualité des données (Normalisation, redimensionnement, seuillage des zones d'intérêts, echantillonage ... ) - Implémentation des modèles de segmentation d'images 3D avec le Deep Learning : utilisation des techniques de computer vision pour détecter le volume tumoral métabolique total (TMTV) des patients. - Optimisation des modèles de Deep Learning : optimisation des hyperparamétres et au niveau des architectures des réseaux de neurones. - Mise en production des modèles : déployement des modéles sur torchserve (en utilisant un API gRPC) dont l'image est créée sur un conteneur Docker.
+Compétences : PyTorch · Docker · Git · Semantic Segmentation · Apprentissage automatique · Vision par ordinateur · Imagerie médicale · torchserve · MONAI
