@@ -27,3 +27,8 @@ Conception, Développement de l'application comptable et des interfaces utilisat
 Développement de l'application en utilisant Python et Tkinter
 Intégration de l'application à une base de données MS Access
 Mise en place du système décisionnel avec Power BI
+
+
+c'est MF je ss un etu en m2 sid et j'ai obtenu mon diplome d'ing en iid l'année derniere durant mon cursus d'ingenierie j'ai eu l'opportunité de faire 2 stages dans le domaine de la Bl
+et Parmi mes atouts majeurs que j'ai dev durant ces exp figurent ma capacité à résoudre des problèmes et mes compétences en communication, deux qualités essentielles pour une collaboration efficace au sein d'équipes. C'est pourquoi je considère que mon profil est idéalement adapté au poste de data analyst
+mtn ce que je cherche vraiment c'est d'integrer un grand groupe qui va m'apporter des competences aussi bien personnellement que professionnellement
