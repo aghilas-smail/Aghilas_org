@@ -1,0 +1,29 @@
+Mon projet de stage etait inscris dans le cadre de la réalisation d'un projet décisionnel pour une meilleure exploitation 
+
+des données opérationnelles du département d'approvisionnement Le responsable d'approvisionnement souhaiterait
+
+avoir une solution d'aide à la décision simple et facile pour pouvoir explorer et visualiser les données
+
+Les besoins du departement etaient :
+
+obtenir des informations précises sur le statut des commandes, tant en termes de valeur que de quantité. Ensuite, assurer un suivi efficace de l'évolution des commandes, des livraisons, et de la performance d'achat, aussi bien en temps réel que dans une perspective prévisionnelle. Enfin, il est primordial de pouvoir analyser et segmenter les données en fonction des dates, des départements, des projets et des fournisseurs
+
+Les principaux etapes associés à mon projet sont :
+
+l'extraction des données à partir d'Excel constitue le point de départ, suivi du chargement du modèle de données pour les préparer à l'analyse.
+
+Ensuite, la préparation des rapports, en veillant à inclure les mesures pertinentes et à effectuer une analyse approfondie des données pour obtenir des informations significatives
+
+Le déploiement des rapports pour permettre aux différents utilisateurs d'accéder rapidement aux rapports
+
+
+Mon projet de fin d'étude consiste à mettre en place un système décisionnel de pilotage opérationnel et financier, ainsi qu'à développer une application comptable pour la gestion et la collecte de données des filiales de Smollan au Maroc et en Algérie:
+
+
+les étapes:
+Analyse des besoins du client
+Définition des objectifs et des besoins fonctionnels
+Conception, Développement de l'application comptable et des interfaces utilisateur
+Développement de l'application en utilisant Python et Tkinter
+Intégration de l'application à une base de données MS Access
+Mise en place du système décisionnel avec Power BI
