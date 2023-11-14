@@ -1,3 +1,7 @@
+'''
+Le lien pour télécharger le dataset(jeux de donnée).
+https://www.kaggle.com/datasets/kmader/finding-lungs-in-ct-data/
+'''
 import os
 import numpy as np
 import cv2
@@ -19,4 +23,4 @@ def create_train_data():
     train_image_path = os.path.join(image_path,'train')
     images = os.listdir(train_image_path)
     total = len(images) / 2
-    
+
