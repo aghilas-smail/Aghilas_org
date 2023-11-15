@@ -30,4 +30,56 @@ Ensuite, le composant suivant est l'extracteur de contexte. Ce module est conçu
 
 Enfin, le module décodeur de fonctionnalités intervient pour reconstruire l'image segmentée à partir des caractéristiques extraites et contextuelles. C'est une étape cruciale pour obtenir une segmentation précise, car elle combine les informations extraites du module encodeur et de l'extracteur de contexte pour produire une sortie finale.
 
+------------------------------------
+Le déploiement d'un modèle sur TorchServe avec une API gRPC et l'utilisation d'un conteneur Docker implique plusieurs étapes. Voici une procédure générale pour accomplir cela :
 
+1. Préparation du Modèle :
+Assurez-vous que votre modèle est compatible avec TorchServe. Vous pouvez utiliser la bibliothèque TorchScript pour convertir votre modèle PyTorch en un format compatible.
+Enregistrez le modèle dans un format pris en charge par TorchServe.
+2. Configuration de l'Environnement :
+Installez les dépendances nécessaires, notamment TorchServe, Docker, et les bibliothèques Python requises.
+Assurez-vous d'avoir une version de Docker installée et que le service Docker est en cours d'exécution.
+3. Création d'une Image Docker :
+Créez un fichier Dockerfile qui spécifie les dépendances nécessaires et les étapes pour configurer l'environnement.
+Dans le Dockerfile, copiez votre modèle enregistré dans le conteneur.
+Exposez le port nécessaire pour l'API gRPC.
+Exemple de Dockerfile :
+
+dockerfile
+Copy code
+FROM pytorch/torchserve:latest-cpu
+
+WORKDIR /home/model
+COPY model.pt .
+
+EXPOSE 8080
+4. Construction et Lancement du Conteneur Docker :
+Utilisez la commande Docker pour construire votre image à partir du Dockerfile.
+Lancez le conteneur Docker en exposant le port spécifié dans le Dockerfile.
+Exemple de commandes :
+
+bash
+Copy code
+docker build -t nom_image:tag .
+docker run -p 8080:8080 nom_image:tag
+5. Configuration de TorchServe :
+Assurez-vous que TorchServe est configuré pour utiliser le backend gRPC.
+Enregistrez votre modèle dans TorchServe.
+Exemple de commandes pour enregistrement d'un modèle :
+
+bash
+Copy code
+torchserve --stop
+torch-model-archiver --model-name my_model --version 1.0 --serialized-file model.pt --export-path ./model_store --handler image_classifier
+torchserve --start --model-store model_store --models my_model=1.0
+6. Test de l'API gRPC :
+Assurez-vous que l'API gRPC est accessible depuis l'extérieur du conteneur.
+Testez l'API en envoyant des requêtes gRPC.
+Exemple de test avec gRPCurl :
+
+bash
+Copy code
+grpcurl -d '{"data": [1.0, 2.0, 3.0]}' -plaintext localhost:8080/predictions/my_model
+7. Intégration dans Votre Application :
+Intégrez l'adresse du serveur TorchServe (localhost:8080 dans cet exemple) dans votre application pour envoyer des requêtes gRPC.
+Ces étapes fournissent une vue d'ensemble du processus de déploiement. Assurez-vous de consulter la documentation officielle de TorchServe et Docker pour des détails spécifiques et des configurations avancées.
