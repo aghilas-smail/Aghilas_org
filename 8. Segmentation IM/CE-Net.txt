@@ -1,0 +1,33 @@
+Le traitement d'images médicales, en particulier en utilisant le Deep Learning pour la segmentation d'images 3D, est un domaine de recherche et d'application très important en médecine. Voici un aperçu général des étapes à suivre pour accomplir ces tâches :
+
+Prétraitement des images :
+a. Normalisation : Assurez-vous que les valeurs de pixel dans vos images médicales sont dans une plage appropriée, généralement entre 0 et 1. Cela peut impliquer la mise à l'échelle des valeurs de pixel.
+b. Redimensionnement : Il peut être nécessaire de redimensionner les images médicales en fonction de la taille requise par votre modèle.
+c. Seuillage des zones d'intérêt : Vous pouvez appliquer des seuils pour extraire des régions d'intérêt dans l'image, par exemple en utilisant un seuil de binarisation.
+d. Échantillonnage : Dans le cas de données 3D, il peut être nécessaire d'échantillonner l'image en tranches 2D ou 3D pour l'entrée du modèle.
+
+Modèles de segmentation d'images 3D avec Deep Learning :
+a. Choix de l'architecture : Sélectionnez un modèle de réseau de neurones convolutif adapté à la segmentation d'images médicales, comme U-Net, V-Net, ou des architectures plus récentes.
+b. Préparation des données : Organisez vos données d'entraînement et de validation, en incluant des masques de segmentation pour chaque image.
+c. Entraînement du modèle : Utilisez un framework de Deep Learning comme TensorFlow, PyTorch ou Keras pour entraîner votre modèle sur les données prétraitées.
+d. Validation : Évaluez la performance de votre modèle sur un ensemble de validation pour vérifier sa précision et éviter le surajustement.
+
+Optimisation des modèles de Deep Learning :
+a. Réglage des hyperparamètres : Optimisez les hyperparamètres du modèle, tels que le taux d'apprentissage, la taille du lot, le nombre d'épochs, etc.
+b. Régularisation : Utilisez des techniques de régularisation pour améliorer la généralisation du modèle, telles que la régularisation L1/L2 ou l'abandon (dropout).
+c. Fine-tuning : Si nécessaire, effectuez un fine-tuning du modèle sur des données spécifiques à votre application médicale.
+
+Déploiement des modèles sur TorchServe (utilisant une API gRPC) dans un conteneur Docker :
+a. Création d'un conteneur Docker : Créez un fichier Dockerfile qui définit l'environnement de votre modèle, y compris les dépendances nécessaires.
+b. TorchServe : Utilisez TorchServe pour héberger votre modèle en tant que service gRPC.
+c. Exposition de l'API gRPC : Exposez une API gRPC pour permettre aux utilisateurs d'interagir avec votre modèle.
+d. Déploiement sur une infrastructure appropriée : Déployez votre conteneur Docker sur une infrastructure compatible, telle que Kubernetes ou AWS ECS.
+
+Ce processus peut être complexe et nécessite des compétences en traitement d'images, Deep Learning, conteneurisation et déploiement. Assurez-vous également de respecter les réglementations en matière de confidentialité et de sécurité des données médicales lors de la mise en œuvre de ces étapes.
+Dans le cadre de mon stage, j'ai eu l'opportunité de travailler avec l'architecture CE-Net, qui se distingue par ses trois composants fondamentaux. Tout d'abord, le module encodeur de fonctionnalités joue un rôle crucial dans l'extraction des caractéristiques des images médicales. Il agit comme une première étape pour capturer des informations pertinentes à partir des données brutes.
+
+Ensuite, le composant suivant est l'extracteur de contexte. Ce module est conçu pour incorporer des informations contextuelles plus larges dans la représentation des caractéristiques, permettant au réseau de neurones de comprendre les relations spatiales et contextuelles entre les différentes parties de l'image médicale.
+
+Enfin, le module décodeur de fonctionnalités intervient pour reconstruire l'image segmentée à partir des caractéristiques extraites et contextuelles. C'est une étape cruciale pour obtenir une segmentation précise, car elle combine les informations extraites du module encodeur et de l'extracteur de contexte pour produire une sortie finale.
+
+
