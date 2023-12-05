@@ -1,8 +1,11 @@
 Entretient passée pour un stage de PFE:
-1- STMicroelectronics : Entretient Technique 1h avec 2 personne OK. Un appel RH OK|
-2- Equancy : Appel RH |
-3- AXA : Appel RH |
-4- HDF energy : appel RH |
-5- Clasquin : Appel RH | Refus.
-6- BNP paribas : test passé en attent | 
-7- URBASOLAR doc envoyé
+
+1- STMicroelectronics : Entretient Technique. Un appel RH OK|
+2- AXA : Appel RH |
+3- HDF energy : appel RH | appel technique.
+4- Clasquin : Appel RH | 
+5- BNP paribas : test passé en attent | 
+6- URBASOLAR doc envoyé |
+7- Dassault system | Entretien technique |
+8- Capgimini : Appel tel
+9- Sencrop : Appel RH
