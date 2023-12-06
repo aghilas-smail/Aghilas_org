@@ -2,10 +2,10 @@ Entretient passée pour un stage de PFE:
 
 1- STMicroelectronics : Entretient Technique. Un appel RH OK|
 2- AXA : Appel RH | Appel technique : En attente (une reponse le 20 décembre).
-3- HDF energy : appel RH | appel technique.
+3- HDF energy : appel RH | appel technique |
 4- Clasquin : Appel RH | 
-5- BNP paribas : test passé en attent | 
-6- URBASOLAR doc envoyé |
-7- Dassault system | Entretien technique |
-8- Capgimini : Appel tel
-9- Sencrop : Appel RH
+5- Dassault system | Entretien technique Le 8 dec |
+6- Capgimini : Appel tel le 8 dec |
+7- Sencrop : Appel RH
+8 - MGT Conseils : Appel RH|
+
