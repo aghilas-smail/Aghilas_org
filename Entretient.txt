@@ -1,8 +1,7 @@
 Entretient passée pour un stage de PFE:
 
-1- STMicroelectronics : Entretient Technique. Un appel RH OK|
+1- STMicroelectronics : Entretient Technique. Un appel RH OK | => accepter.
 2- AXA : Appel RH | Appel technique : En attente (une reponse le 20 décembre).
-3- HDF energy : appel RH | appel technique |
-7- Sencrop : Appel RH | test technique passé | entretien avec le manager le 19 décembre.
-8- MGT Conseils : Appel RH|
+3- Sencrop : Appel RH | test technique passé | entretien avec le manager le 19 décembre.
+4- MGT Conseils : Appel RH|
 
