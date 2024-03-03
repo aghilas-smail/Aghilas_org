@@ -59,25 +59,63 @@
 -- condition pour savoir si une le FirstName est null ou pas.
 --where FirstName is Not null
 
-select *
-from EmployeeDemographics
---Order by Age, Gender DESC
-order by 4 Desc, 5 Desc
+--select *
+--from EmployeeDemographics
+----Order by Age, Gender DESC
+--order by 4 Desc, 5 Desc
 
-select Gender ,age, COUNT(Gender) 
-from EmployeeDemographics
-Group By Gender, Age
-
-
-select Gender, COUNT(Gender) AS CountGender
-from EmployeeDemographics
-where Age > 31
-Group By Gender
-Order By CountGender ASC
+--select Gender ,age, COUNT(Gender) 
+--from EmployeeDemographics
+--Group By Gender, Age
 
 
-Select *
-FROM SQL_tuto.dbo.EmployeeDemographics 
+--select Gender, COUNT(Gender) AS CountGender
+--from EmployeeDemographics
+--where Age > 31
+--Group By Gender
+--Order By CountGender ASC
 
-Select * 
-From SQL_tuto.dbo.EmployeeSalary
+
+--Select *
+--FROM SQL_tuto.dbo.EmployeeDemographics 
+
+--Select * 
+--From SQL_tuto.dbo.EmployeeSalary
+
+----------------------------------------
+
+/*
+Inner Joins, Full/ Left/ Right outer Joins
+
+*/
+
+--Insert into EmployeeDemographics VALUES
+--(1001, 'Jim', 'Halpert', 30, 'Male'),
+--(NULL, 'Pam', 'Beasley', NULL, NULL),
+--(1013, 'Dwight', 'Schrute', NULL, 'Male')
+
+--Insert into EmployeeSalary VALUES
+--(1010, NULL, 47000),
+--(NULL , 'Salesman',43000)
+
+--select * from EmployeeDemographics
+--select * from EmployeeSalary
+
+-- Inner Join c'est comme l'intersection entre les 2 table.
+Select * from SQL_tuto.dbo.EmployeeDemographics
+Inner Join SQL_tuto.dbo.EmployeeSalary
+	ON EmployeeDemographics.EmployeeID = EmployeeSalary.EmployeeID
+
+-- Full Outer Join c'est de prende le tous qui veut dire faire l'union.
+
+Select * from EmployeeDemographics
+FULL Outer Join EmployeeSalary
+	ON EmployeeDemographics.EmployeeID = EmployeeSalary.EmployeeID
+
+
+-- Left Outer Join prende l'union mais sans la 2 table.
+-- Et le right et de faire le contraire .
+
+Select * from EmployeeDemographics
+Right Outer Join EmployeeSalary
+	ON EmployeeDemographics.EmployeeID = EmployeeSalary.EmployeeID
