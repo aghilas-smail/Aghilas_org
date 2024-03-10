@@ -1,0 +1,820 @@
+{
+    "items": [
+        {
+            "tags": [
+                "python",
+                "if-statement"
+            ],
+            "owner": {
+                "account_id": 27369165,
+                "reputation": 37,
+                "user_id": 20875484,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/9a01812cc757e5ec4b7ba75ed8ef400f?s=256&d=identicon&r=PG",
+                "display_name": "KurtA",
+                "link": "https://stackoverflow.com/users/20875484/kurta"
+            },
+            "is_answered": false,
+            "view_count": 21,
+            "answer_count": 2,
+            "score": -3,
+            "last_activity_date": 1710094337,
+            "creation_date": 1710093155,
+            "question_id": 78136886,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78136886/python-if-with-or-and-not-all-at-the-same-time-legal",
+            "title": "Python if with &#39;or &#39;and&#39; &#39;not&#39; all at the same time legal?"
+        },
+        {
+            "tags": [
+                "python"
+            ],
+            "owner": {
+                "account_id": 126672,
+                "reputation": 15462,
+                "user_id": 323332,
+                "user_type": "registered",
+                "accept_rate": 95,
+                "profile_image": "https://www.gravatar.com/avatar/a4261c8ea5f441c0fe75878d84097c78?s=256&d=identicon&r=PG",
+                "display_name": "Richard",
+                "link": "https://stackoverflow.com/users/323332/richard"
+            },
+            "is_answered": true,
+            "view_count": 122366,
+            "accepted_answer_id": 3638597,
+            "answer_count": 5,
+            "score": 53,
+            "last_activity_date": 1710094296,
+            "creation_date": 1283538360,
+            "last_edit_date": 1283543826,
+            "question_id": 3638532,
+            "content_license": "CC BY-SA 2.5",
+            "link": "https://stackoverflow.com/questions/3638532/find-time-difference-in-seconds-as-an-integer-with-python",
+            "title": "find time difference in seconds as an integer with python"
+        },
+        {
+            "tags": [
+                "python",
+                "algorithm",
+                "performance",
+                "optimization"
+            ],
+            "owner": {
+                "account_id": 514072,
+                "reputation": 20475,
+                "user_id": 1473517,
+                "user_type": "registered",
+                "accept_rate": 100,
+                "profile_image": "https://i.stack.imgur.com/Rd3qU.png?s=256&g=1",
+                "display_name": "Simd",
+                "link": "https://stackoverflow.com/users/1473517/simd"
+            },
+            "is_answered": false,
+            "view_count": 14,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1710094282,
+            "creation_date": 1710092745,
+            "last_edit_date": 1710094282,
+            "question_id": 78136859,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78136859/find-the-optimal-clipped-circle",
+            "title": "Find the optimal clipped circle"
+        },
+        {
+            "tags": [
+                "javascript",
+                "css",
+                "caching",
+                "python-sphinx",
+                "browser-cache"
+            ],
+            "owner": {
+                "account_id": 1703956,
+                "reputation": 20793,
+                "user_id": 1563422,
+                "user_type": "registered",
+                "accept_rate": 83,
+                "profile_image": "https://i.stack.imgur.com/SU0xt.jpg?s=256&g=1",
+                "display_name": "Danny Beckett",
+                "link": "https://stackoverflow.com/users/1563422/danny-beckett"
+            },
+            "is_answered": true,
+            "view_count": 24,
+            "accepted_answer_id": 78099330,
+            "answer_count": 1,
+            "score": 2,
+            "last_activity_date": 1710094282,
+            "creation_date": 1709534036,
+            "question_id": 78099329,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78099329/how-to-force-custom-js-css-files-in-sphinx-to-always-load-changes-without-cachin",
+            "title": "How to force custom js/css files in Sphinx to always load changes without caching?"
+        },
+        {
+            "tags": [
+                "c++",
+                "gcc"
+            ],
+            "owner": {
+                "account_id": 5990694,
+                "reputation": 917,
+                "user_id": 4706859,
+                "user_type": "registered",
+                "accept_rate": 36,
+                "profile_image": "https://i.stack.imgur.com/8Ttqb.png?s=256&g=1",
+                "display_name": "SR_",
+                "link": "https://stackoverflow.com/users/4706859/sr"
+            },
+            "is_answered": true,
+            "view_count": 119,
+            "accepted_answer_id": 78135246,
+            "answer_count": 2,
+            "score": 4,
+            "last_activity_date": 1710094281,
+            "creation_date": 1709820430,
+            "last_edit_date": 1710086338,
+            "question_id": 78121996,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78121996/is-mixing-c11-and-c20-allowed-with-gcc",
+            "title": "Is mixing C++11 and C++20 allowed with GCC?"
+        },
+        {
+            "tags": [
+                "hibernate",
+                "primary-key"
+            ],
+            "owner": {
+                "account_id": 1161070,
+                "reputation": 4534,
+                "user_id": 1631510,
+                "user_type": "registered",
+                "accept_rate": 86,
+                "profile_image": "https://www.gravatar.com/avatar/4230c5d1c2c2446b9a19e0b2bcc32909?s=256&d=identicon&r=PG",
+                "display_name": "danidemi",
+                "link": "https://stackoverflow.com/users/1631510/danidemi"
+            },
+            "is_answered": false,
+            "view_count": 8,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1710094277,
+            "creation_date": 1710088976,
+            "last_edit_date": 1710094277,
+            "question_id": 78136668,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78136668/why-hibernate-now-uses-table-strategy-as-default-for-mysql",
+            "title": "Why Hibernate now uses TABLE strategy as default for MySQL?"
+        },
+        {
+            "tags": [
+                "java",
+                "apache-poi",
+                "apache-poi-4"
+            ],
+            "owner": {
+                "account_id": 27645064,
+                "reputation": 1,
+                "user_id": 21101152,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/1116d7eaae97021de822469449a269d8?s=256&d=identicon&r=PG",
+                "display_name": "KJDASHGDKJSA",
+                "link": "https://stackoverflow.com/users/21101152/kjdashgdkjsa"
+            },
+            "is_answered": false,
+            "view_count": 7,
+            "answer_count": 0,
+            "score": -1,
+            "last_activity_date": 1710094272,
+            "creation_date": 1710092541,
+            "last_edit_date": 1710094272,
+            "question_id": 78136849,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78136849/apache-poi-cant-read-my-excel-file-but-when-resaved-it-can-be-read",
+            "title": "Apache poi can&#39;t read my excel file but when resaved it can be read"
+        },
+        {
+            "tags": [
+                "java",
+                "spring-boot",
+                "junit",
+                "optaplanner",
+                "timefold"
+            ],
+            "owner": {
+                "account_id": 24893102,
+                "reputation": 91,
+                "user_id": 18764743,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/5079a905d0d54ee853ddc343ab567f81?s=256&d=identicon&r=PG&f=y&so-version=2",
+                "display_name": "Diallo Francis Patrick",
+                "link": "https://stackoverflow.com/users/18764743/diallo-francis-patrick"
+            },
+            "is_answered": false,
+            "view_count": 3,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1710094271,
+            "creation_date": 1710094271,
+            "question_id": 78136960,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78136960/how-can-i-write-unit-tests-for-constraints-where-i-applied-penalizeconfigurable",
+            "title": "How can I write unit tests for Constraints where I applied penalizeConfigurable() method in Timefold?"
+        },
+        {
+            "tags": [
+                "typescript"
+            ],
+            "owner": {
+                "account_id": 7889535,
+                "reputation": 2254,
+                "user_id": 5960218,
+                "user_type": "registered",
+                "profile_image": "https://i.stack.imgur.com/RALdK.png?s=256&g=1",
+                "display_name": "axl-code",
+                "link": "https://stackoverflow.com/users/5960218/axl-code"
+            },
+            "is_answered": false,
+            "view_count": 6,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1710094254,
+            "creation_date": 1710094010,
+            "last_edit_date": 1710094254,
+            "question_id": 78136942,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78136942/type-in-reduce-function",
+            "title": "Type in reduce function"
+        },
+        {
+            "tags": [
+                "bash",
+                "shell",
+                "path",
+                "variable-expansion",
+                "list-processing"
+            ],
+            "owner": {
+                "account_id": 19699,
+                "reputation": 55688,
+                "user_id": 46387,
+                "user_type": "registered",
+                "accept_rate": 84,
+                "profile_image": "https://www.gravatar.com/avatar/f21bda50069eba70879c3204a6788315?s=256&d=identicon&r=PG",
+                "display_name": "Ben Blank",
+                "link": "https://stackoverflow.com/users/46387/ben-blank"
+            },
+            "is_answered": true,
+            "view_count": 86238,
+            "accepted_answer_id": 370192,
+            "answer_count": 35,
+            "score": 138,
+            "last_activity_date": 1710094198,
+            "creation_date": 1229383154,
+            "last_edit_date": 1556122571,
+            "question_id": 370047,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/370047/what-is-the-most-elegant-way-to-remove-a-path-from-the-path-variable-in-bash",
+            "title": "What is the most elegant way to remove a path from the $PATH variable in Bash?"
+        },
+        {
+            "tags": [
+                "angular",
+                "typescript",
+                "primeng",
+                "background-color",
+                "styling"
+            ],
+            "owner": {
+                "account_id": 20782830,
+                "reputation": 21,
+                "user_id": 15262800,
+                "user_type": "registered",
+                "profile_image": "https://lh3.googleusercontent.com/a-/AOh14GjC7u9IDnQM79HiXmzehGIbUlAvkQzbjQijLRSNOQ=k-s256",
+                "display_name": "Benito",
+                "link": "https://stackoverflow.com/users/15262800/benito"
+            },
+            "is_answered": false,
+            "view_count": 8,
+            "answer_count": 1,
+            "score": 0,
+            "last_activity_date": 1710094162,
+            "creation_date": 1710091199,
+            "question_id": 78136781,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78136781/how-to-change-the-background-of-primengs-p-card-component-after-ngafterviewinit",
+            "title": "How to change the background of PrimeNG&#39;s p-card component after ngAfterViewInit?"
+        },
+        {
+            "tags": [
+                "string",
+                "matrix",
+                "type-conversion",
+                "julia"
+            ],
+            "owner": {
+                "account_id": 30738303,
+                "reputation": 11,
+                "user_id": 23570557,
+                "user_type": "registered",
+                "profile_image": "https://lh3.googleusercontent.com/a/ACg8ocI0EKh3WZ1f86eeoS0P-Alll5VzLWpIZFWvy7t-_spp9w=k-s256",
+                "display_name": "Sans",
+                "link": "https://stackoverflow.com/users/23570557/sans"
+            },
+            "is_answered": false,
+            "view_count": 25,
+            "answer_count": 3,
+            "score": 1,
+            "last_activity_date": 1710094160,
+            "creation_date": 1710072830,
+            "last_edit_date": 1710074429,
+            "question_id": 78135816,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78135816/how-do-i-get-only-the-first-number-in-a-string-inside-a-matrix-in-julia",
+            "title": "How do i get only the first number in a string inside a matrix in julia?"
+        },
+        {
+            "tags": [
+                "sql-server",
+                "t-sql"
+            ],
+            "owner": {
+                "account_id": 7332691,
+                "reputation": 3,
+                "user_id": 5585056,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/15c536827e2b8216fc030ba7a0d4a53c?s=256&d=identicon&r=PG&f=y&so-version=2",
+                "display_name": "FTU",
+                "link": "https://stackoverflow.com/users/5585056/ftu"
+            },
+            "is_answered": true,
+            "view_count": 25,
+            "accepted_answer_id": 78136382,
+            "answer_count": 1,
+            "score": 0,
+            "last_activity_date": 1710094160,
+            "creation_date": 1710082363,
+            "last_edit_date": 1710094160,
+            "question_id": 78136295,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78136295/store-variable-sql-statement-into-a-json-variable",
+            "title": "Store variable SQL Statement into a JSON variable"
+        },
+        {
+            "tags": [
+                "javascript",
+                "webpack",
+                "side-effects"
+            ],
+            "owner": {
+                "account_id": 30618548,
+                "reputation": 41,
+                "user_id": 23471461,
+                "user_type": "registered",
+                "profile_image": "https://lh3.googleusercontent.com/a/ACg8ocKOE7wVjLPs5-rJgu7QC0rI0mU3_BuXWT-n5gPf8n4K9A=k-s256",
+                "display_name": "Alphonsio",
+                "link": "https://stackoverflow.com/users/23471461/alphonsio"
+            },
+            "is_answered": true,
+            "view_count": 67,
+            "answer_count": 1,
+            "score": 2,
+            "last_activity_date": 1710094154,
+            "creation_date": 1709986809,
+            "question_id": 78132291,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78132291/can-a-function-be-declared-as-pure-at-definition",
+            "title": "Can a function be declared as pure at definition?"
+        },
+        {
+            "tags": [
+                "html",
+                "css",
+                "flexbox"
+            ],
+            "owner": {
+                "account_id": 27726879,
+                "reputation": 13,
+                "user_id": 21166241,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/1d16e5b5671fa626d297db33aedcd5e3?s=256&d=identicon&r=PG",
+                "display_name": "bigpython",
+                "link": "https://stackoverflow.com/users/21166241/bigpython"
+            },
+            "is_answered": false,
+            "view_count": 20,
+            "answer_count": 1,
+            "score": 0,
+            "last_activity_date": 1710094150,
+            "creation_date": 1710092444,
+            "question_id": 78136843,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78136843/flexbox-properties-applying-to-text-instead-of-flex-container",
+            "title": "Flexbox properties applying to text instead of flex container"
+        },
+        {
+            "tags": [
+                "excel",
+                "vba"
+            ],
+            "owner": {
+                "account_id": 8652941,
+                "reputation": 95,
+                "user_id": 6478045,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/12c0421c96e463955d9ce51987c550a1?s=256&d=identicon&r=PG&f=y&so-version=2",
+                "display_name": "made leod",
+                "link": "https://stackoverflow.com/users/6478045/made-leod"
+            },
+            "is_answered": false,
+            "view_count": 18,
+            "answer_count": 2,
+            "score": 0,
+            "last_activity_date": 1710094140,
+            "creation_date": 1710091415,
+            "question_id": 78136791,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78136791/how-to-optimize-this-sub-in-vba",
+            "title": "How to optimize this sub in vba?"
+        },
+        {
+            "tags": [
+                "nuxt.js",
+                "nuxt3"
+            ],
+            "owner": {
+                "account_id": 15800218,
+                "reputation": 15,
+                "user_id": 11400950,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/cdc4bd0fef3ae38da4ddb6c87983ee2d?s=256&d=identicon&r=PG&f=y&so-version=2",
+                "display_name": "Vaks",
+                "link": "https://stackoverflow.com/users/11400950/vaks"
+            },
+            "is_answered": false,
+            "view_count": 6,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1710094116,
+            "creation_date": 1710094116,
+            "question_id": 78136955,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78136955/why-nuxt3-shows-404-page-not-found-error",
+            "title": "Why Nuxt3 shows &quot;404 Page not found&quot; error?"
+        },
+        {
+            "tags": [
+                "python",
+                "django"
+            ],
+            "owner": {
+                "account_id": 30740357,
+                "reputation": 1,
+                "user_id": 23572232,
+                "user_type": "registered",
+                "profile_image": "https://lh3.googleusercontent.com/a/ACg8ocLTHe9nm__ucDHrXUxzP89n-V-xDaRlnfM-ZYMyWrMl=k-s256",
+                "display_name": "ClementG71",
+                "link": "https://stackoverflow.com/users/23572232/clementg71"
+            },
+            "is_answered": false,
+            "view_count": 7,
+            "answer_count": 1,
+            "score": 0,
+            "last_activity_date": 1710094096,
+            "creation_date": 1710093728,
+            "question_id": 78136922,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78136922/stuck-on-django-4-2-11",
+            "title": "Stuck on Django 4.2.11"
+        },
+        {
+            "tags": [
+                "spring",
+                "caching",
+                "memcached"
+            ],
+            "owner": {
+                "account_id": 49039,
+                "reputation": 4364,
+                "user_id": 145888,
+                "user_type": "registered",
+                "accept_rate": 74,
+                "profile_image": "https://www.gravatar.com/avatar/a5c48ce2226e65800a67961b2fafc1c0?s=256&d=identicon&r=PG",
+                "display_name": "David Zhao",
+                "link": "https://stackoverflow.com/users/145888/david-zhao"
+            },
+            "is_answered": true,
+            "view_count": 122317,
+            "accepted_answer_id": 15775379,
+            "answer_count": 3,
+            "score": 96,
+            "last_activity_date": 1710094091,
+            "creation_date": 1345827722,
+            "last_edit_date": 1345837912,
+            "question_id": 12113725,
+            "content_license": "CC BY-SA 3.0",
+            "link": "https://stackoverflow.com/questions/12113725/how-do-i-tell-spring-cache-not-to-cache-null-value-in-cacheable-annotation",
+            "title": "How do I tell Spring cache not to cache null value in @Cacheable annotation"
+        },
+        {
+            "tags": [
+                "python",
+                "pandas",
+                "regex"
+            ],
+            "owner": {
+                "account_id": 14735746,
+                "reputation": 109,
+                "user_id": 10641841,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/57092d3b8cf5931fcb6202e84d37ae5f?s=256&d=identicon&r=PG&f=y&so-version=2",
+                "display_name": "Jayit Ghosh",
+                "link": "https://stackoverflow.com/users/10641841/jayit-ghosh"
+            },
+            "is_answered": false,
+            "view_count": 11,
+            "answer_count": 1,
+            "score": -1,
+            "last_activity_date": 1710094072,
+            "creation_date": 1710093110,
+            "question_id": 78136884,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78136884/using-custom-function-with-apply-to-create-multiple-columns-from-a-single-column",
+            "title": "Using Custom function with apply to create multiple columns from a single column"
+        },
+        {
+            "tags": [
+                "javascript",
+                "real-time",
+                "http-live-streaming",
+                "rtmp",
+                "real-time-data"
+            ],
+            "owner": {
+                "account_id": 30740360,
+                "reputation": 1,
+                "user_id": 23572236,
+                "user_type": "registered",
+                "profile_image": "https://lh3.googleusercontent.com/a/ACg8ocLuX4XKbdrWCLkXTwGwTZdkdcT927e03RAu1X7Rh2hS=k-s256",
+                "display_name": "Zhelyn",
+                "link": "https://stackoverflow.com/users/23572236/zhelyn"
+            },
+            "is_answered": false,
+            "view_count": 4,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1710094068,
+            "creation_date": 1710094068,
+            "question_id": 78136952,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78136952/how-a-website-can-receive-real-time-protocol-such-as-rtmp-and-many-other-real-t",
+            "title": "how a website can receive real time protocol such as rtmp, and many other real time protocols"
+        },
+        {
+            "tags": [
+                "vagrant",
+                "virtualbox",
+                "chef-workstation"
+            ],
+            "owner": {
+                "account_id": 24124514,
+                "reputation": 21,
+                "user_id": 18093082,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/19d333222b9193ca335de2189252cc5d?s=256&d=identicon&r=PG",
+                "display_name": "Full Lifetime",
+                "link": "https://stackoverflow.com/users/18093082/full-lifetime"
+            },
+            "is_answered": false,
+            "view_count": 5,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1710094063,
+            "creation_date": 1710094063,
+            "question_id": 78136951,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78136951/vboxmanage-have-difficulty-to-boot-my-ubuntu-vm-during-kitchen-converge",
+            "title": "VBoxManage have difficulty to boot my ubuntu VM during kitchen converge"
+        },
+        {
+            "tags": [
+                "database",
+                "stored-procedures",
+                "db2",
+                "cobol",
+                "mainframe"
+            ],
+            "owner": {
+                "account_id": 30735760,
+                "reputation": 1,
+                "user_id": 23568506,
+                "user_type": "registered",
+                "profile_image": "https://lh3.googleusercontent.com/a/ACg8ocIQ9qJqijnBjCRQ8AeEoNMiuITkVqh7zu7PpyhDOC5G0CY=k-s256",
+                "display_name": "user23568506",
+                "link": "https://stackoverflow.com/users/23568506/user23568506"
+            },
+            "is_answered": false,
+            "view_count": 22,
+            "answer_count": 1,
+            "score": -2,
+            "last_activity_date": 1710094061,
+            "creation_date": 1710033106,
+            "question_id": 78134427,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78134427/db2-contention-issues",
+            "title": "DB2 contention issues"
+        },
+        {
+            "tags": [
+                "javascript",
+                "html",
+                "css"
+            ],
+            "owner": {
+                "account_id": 27285311,
+                "reputation": 412,
+                "user_id": 20804576,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/29bc52452cebeec61b03027747d77627?s=256&d=identicon&r=PG",
+                "display_name": "taat",
+                "link": "https://stackoverflow.com/users/20804576/taat"
+            },
+            "is_answered": false,
+            "view_count": 42,
+            "answer_count": 2,
+            "score": 1,
+            "last_activity_date": 1710094060,
+            "creation_date": 1710078018,
+            "last_edit_date": 1710094060,
+            "question_id": 78136070,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78136070/how-to-apply-css-animation-to-a-specific-section-when-it-appears-in-the-viewport",
+            "title": "How to apply css animation to a specific section when it appears in the viewport"
+        },
+        {
+            "tags": [
+                "c++",
+                "compiler-flags"
+            ],
+            "owner": {
+                "account_id": 30739959,
+                "reputation": 1,
+                "user_id": 23571911,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/0a2af491b16b2f7832253c8c59e469b5?s=256&d=identicon&r=PG&f=y&so-version=2",
+                "display_name": "TheFortyTwo",
+                "link": "https://stackoverflow.com/users/23571911/thefortytwo"
+            },
+            "is_answered": false,
+            "view_count": 16,
+            "answer_count": 0,
+            "score": -1,
+            "last_activity_date": 1710094050,
+            "creation_date": 1710089969,
+            "last_edit_date": 1710094050,
+            "question_id": 78136716,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78136716/addresssanitizerdeadlysignal-from-fsanitize-address-flag",
+            "title": "AddressSanitizer:DEADLYSIGNAL from -fsanitize=address flag"
+        },
+        {
+            "tags": [
+                "html",
+                "css"
+            ],
+            "owner": {
+                "account_id": 30654341,
+                "reputation": 1,
+                "user_id": 23500015,
+                "user_type": "registered",
+                "profile_image": "https://lh3.googleusercontent.com/a/ACg8ocKtqnjFIP5OTqBV5rwp-6ki4hu4FnwdPA_E7EGk_z5Pzwk=k-s256",
+                "display_name": "Nick Austin",
+                "link": "https://stackoverflow.com/users/23500015/nick-austin"
+            },
+            "is_answered": false,
+            "view_count": 8,
+            "answer_count": 0,
+            "score": -1,
+            "last_activity_date": 1710094045,
+            "creation_date": 1710094045,
+            "question_id": 78136947,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78136947/picture-not-showing-up-using-sublime-text",
+            "title": "picture not showing up using sublime text"
+        },
+        {
+            "tags": [
+                "postgresql",
+                "postgis",
+                "string-literals",
+                "wkb"
+            ],
+            "owner": {
+                "account_id": 348495,
+                "reputation": 21954,
+                "user_id": 4196578,
+                "user_type": "registered",
+                "profile_image": "https://i.stack.imgur.com/7Vy7c.png?s=256&g=1",
+                "display_name": "thor",
+                "link": "https://stackoverflow.com/users/4196578/thor"
+            },
+            "is_answered": true,
+            "view_count": 29794,
+            "accepted_answer_id": 34823171,
+            "answer_count": 3,
+            "score": 48,
+            "last_activity_date": 1710094034,
+            "creation_date": 1452914233,
+            "last_edit_date": 1452921070,
+            "question_id": 34823158,
+            "content_license": "CC BY-SA 3.0",
+            "link": "https://stackoverflow.com/questions/34823158/whats-the-e-before-a-postgres-string",
+            "title": "What&#39;s the &quot;E&quot; before a Postgres string?"
+        },
+        {
+            "tags": [
+                "c++17",
+                "sfinae"
+            ],
+            "owner": {
+                "account_id": 6884112,
+                "reputation": 23,
+                "user_id": 5289841,
+                "user_type": "registered",
+                "profile_image": "https://graph.facebook.com/972662166126084/picture?type=large",
+                "display_name": "Timofey Konshin",
+                "link": "https://stackoverflow.com/users/5289841/timofey-konshin"
+            },
+            "is_answered": true,
+            "view_count": 195,
+            "accepted_answer_id": 66397194,
+            "answer_count": 1,
+            "score": 2,
+            "last_activity_date": 1710094032,
+            "creation_date": 1614415827,
+            "question_id": 66397071,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66397071/is-it-possible-to-check-if-overloaded-operator-for-type-or-class-exists",
+            "title": "is it possible to check if overloaded operator&lt;&lt; for type or class exists?"
+        },
+        {
+            "tags": [
+                "reactjs",
+                "react-native",
+                "fonts",
+                "expo",
+                "expo-router"
+            ],
+            "owner": {
+                "account_id": 27646841,
+                "reputation": 95,
+                "user_id": 21102541,
+                "user_type": "registered",
+                "profile_image": "https://lh3.googleusercontent.com/a/AEdFTp6kJPJ1Nn6vVFAfnnjSkGAdIRP8jCLIXndELJIG=k-s256",
+                "display_name": "Ash Gharibyan",
+                "link": "https://stackoverflow.com/users/21102541/ash-gharibyan"
+            },
+            "is_answered": false,
+            "view_count": 3,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1710094032,
+            "creation_date": 1710094032,
+            "question_id": 78136945,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78136945/change-the-default-font-of-react-native-project-for-all-components-at-once",
+            "title": "Change the default font of react native project for all components at once"
+        },
+        {
+            "tags": [
+                "database",
+                "macos",
+                "mariadb",
+                "homebrew"
+            ],
+            "owner": {
+                "account_id": 28182661,
+                "reputation": 11,
+                "user_id": 21539418,
+                "user_type": "registered",
+                "profile_image": "https://lh3.googleusercontent.com/a/AGNmyxYmvFv6BXgUPJarWqDayoW5qesbxzgN_5opjbla=k-s256",
+                "display_name": "Dmitry Iordanov",
+                "link": "https://stackoverflow.com/users/21539418/dmitry-iordanov"
+            },
+            "is_answered": false,
+            "view_count": 6,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1710094030,
+            "creation_date": 1710093931,
+            "last_edit_date": 1710094030,
+            "question_id": 78136936,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/78136936/how-to-install-mariadb-10-7-on-macos",
+            "title": "How to install MariaDB 10.7 on macos"
+        }
+    ],
+    "has_more": true,
+    "quota_max": 300,
+    "quota_remaining": 290
+}
