@@ -11,3 +11,23 @@ class Solution(object):
 # test case
 solution = Solution()
 print(solution.removePalindromeSub("ababa"))
+
+
+#Avec une boucle 
+
+# def is_palindrome(s):
+#     left = 0
+#     right = len(s) - 1
+    
+#     while left < right:
+#         if s[left] != s[right]:
+#             return False
+#         left += 1
+#         right -= 1
+    
+#     return True
+
+
+# print(is_palindrome("ababa"))  
+# print(is_palindrome("abb"))    
+# print(is_palindrome("baabb"))  
