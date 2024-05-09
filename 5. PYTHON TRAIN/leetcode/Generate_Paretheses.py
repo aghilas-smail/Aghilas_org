@@ -5,6 +5,7 @@ from typing import List
 class Solution(object):
     def generateParenthesis(self, n: int) -> List[str]:
         def dfs(left,right,s):
+            # verify if the len of s  = s*2
             if len(s) == n * 2:
                 res.append(s)
                 return
@@ -22,4 +23,4 @@ class Solution(object):
 solution = Solution()
 print(solution.generateParenthesis(3))  
 print(solution.generateParenthesis(1)) 
-print(solution.generateParenthesis(5))
+print(solution.generateParenthesis(5))  
