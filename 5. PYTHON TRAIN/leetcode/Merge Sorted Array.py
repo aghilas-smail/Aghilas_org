@@ -34,6 +34,9 @@
 
 ''' Easy solution'''
 
+from typing import List
+
+
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
@@ -60,5 +63,14 @@ class Solution:
         while p2 < n:
             merged.append(nums2[p2])
             p2 = p2 + 1
-            
-        nums1[:m + n] = merged
+        return merged
+        #nums1[:m + n] = merged
+        
+
+# test 
+
+solution = Solution()
+nums1 = [1]
+nums2 = [4,5]
+test1 = solution.merge(nums1,1,nums2,2)
+print(test1)
