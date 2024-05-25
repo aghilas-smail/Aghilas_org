@@ -18,19 +18,19 @@ import unittest
 import test
 
 def Solution(capacity: list[int], rocks : list[int], additionalRocks : int) -> int:
-    needed_rocks  = []
-    for i in range(len(capacity)):
-        t = capacity[i] - rocks[i]
-        needed_rocks.append(t)
-        
-    needed_rocks.sort()    
+    needed_rocks  = [] # declared a empty list
+    for i in range(len(capacity)): # loop to the capacity of each bugs
+        t = capacity[i] - rocks[i] # substract the difference between capacity and rocks
+        needed_rocks.append(t) # Append the result to the empty liste
+    print(needed_rocks)    
+    needed_rocks.sort() # sort the list    
     
     full_bags = 0
     
     for rocket_needed in needed_rocks :
-        if additionalRocks >= rocket_needed:
-            additionalRocks -= rocket_needed
-            full_bags += 1
+        if additionalRocks >= rocket_needed: 
+            additionalRocks -= rocket_needed # substract the additionalRocks
+            full_bags += 1 # we inscrement the bugs because we find a full bag.
         else:
             break
         
@@ -39,7 +39,7 @@ def Solution(capacity: list[int], rocks : list[int], additionalRocks : int) -> i
 
 import test
 def runTest(Solution):
-    capacity = [2, 3, 4, 5]
+    capacity = [5, 3, 4, 5]
     rocks = [1, 2, 4, 4]
     additionalRocks = 2
     print(Solution(capacity, rocks, additionalRocks))  
