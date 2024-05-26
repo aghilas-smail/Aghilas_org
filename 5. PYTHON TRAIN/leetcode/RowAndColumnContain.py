@@ -28,7 +28,7 @@ def Solution(matrix: list[list[int]]) -> bool:
             return False
         
     return True
-
+# test
 
 matrix = [[1, 2, 3], [3, 1, 2], [2, 3, 1]]
 print(Solution(matrix))  
