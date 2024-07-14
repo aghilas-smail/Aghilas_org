@@ -1,0 +1,21 @@
+1 - Find the min of ALL_levels_active in DEPRESSION_BY_LEVEL_OF_EDUCATION Table :
+
+
+2 - Find the entites with the highest suicide rate in the year 2000 : 
+
+
+
+3 - Which entities have a higher prevalence of depression in female than males in the year 2010?" SQL Query Sentence:
+
+
+
+4 - What is the average prevalence of depression by age for all entities in the year 2015?"
+
+
+
+5 - Find the entities with the highest prevalence of schizophrenia and bipolar disorder in the year 2005."
+
+
+
+
+
