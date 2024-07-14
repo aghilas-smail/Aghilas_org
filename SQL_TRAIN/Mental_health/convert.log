@@ -1,0 +1,66 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Sat Jul 13 14:21:27 2024
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   convert.ctl
+Data File:      C:\Users\aghil\Desktop\Aghilas_org\SQL_TRAIN\Mental_health\depression-by-level-of-educatio.csv
+  Bad File:     depression-by-level-of-educatio.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table DEPRESSION_BY_LEVEL_OF_EDUCATION, loaded from every logical record.
+Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ENTITY                              FIRST     *   ,  O(") CHARACTER            
+CODE                                 NEXT     *   ,  O(") CHARACTER            
+YEAR                                 NEXT     *   ,  O(") CHARACTER            
+ALL_LEVELS_ACTIVE                    NEXT     *   ,  O(") CHARACTER            
+ALL_LEVELS_EMPLOYED                  NEXT     *   ,  O(") CHARACTER            
+ALL_LEVELS_TOTAL                     NEXT     *   ,  O(") CHARACTER            
+BELOW_UPPER_SECONDARY_ACTIVE         NEXT     *   ,  O(") CHARACTER            
+BELOW_UPPER_SECONDARY_EMPLOYED       NEXT     *   ,  O(") CHARACTER            
+BELOW_UPPER_SECONDARY_TOTAL          NEXT     *   ,  O(") CHARACTER            
+TERTIARY_ACTIVE                      NEXT     *   ,  O(") CHARACTER            
+TERTIARY_EMPLOYED                    NEXT     *   ,  O(") CHARACTER            
+TERTIARY_TOTAL                       NEXT     *   ,  O(") CHARACTER            
+UPPER_SECONDARY_POST_SECONDARY_NON_TERTIARY_ACTIVE       NEXT     *   ,  O(") CHARACTER            
+UPPER_SECONDARY_POST_SECONDARY_NON_TERTIARY_EMPLOYED       NEXT     *   ,  O(") CHARACTER            
+UPPER_SECONDARY_POST_SECONDARY_NON_TERTIARY_TOTAL       NEXT     *   ,  O(") CHARACTER            
+
+Record 1: Rejected - Error on table DEPRESSION_BY_LEVEL_OF_EDUCATION, column YEAR.
+ORA-01722: invalid number
+
+
+Table DEPRESSION_BY_LEVEL_OF_EDUCATION:
+  26 Rows successfully loaded.
+  1 Row not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 967500 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            27
+Total logical records rejected:         1
+Total logical records discarded:        0
+
+Run began on Sat Jul 13 14:21:27 2024
+Run ended on Sat Jul 13 14:21:27 2024
+
+Elapsed time was:     00:00:00.16
+CPU time was:         00:00:00.11
