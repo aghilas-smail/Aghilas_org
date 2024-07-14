@@ -8,7 +8,7 @@ def get_jobs(keyword, num_jobs, verbose):
     '''Gathers jobs as a dataframe, scraped from Glassdoor'''
     
     #Initializing the webdriver
-    options = webdriver.ChromeOptions()
+    options = webdriver.ChraomeOptions()
     
     #Uncomment the line below if you'd like to scrape without a new Chrome window every time.
     #options.add_argument('headless')
