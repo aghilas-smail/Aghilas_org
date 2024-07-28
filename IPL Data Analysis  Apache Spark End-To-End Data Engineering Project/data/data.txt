@@ -1,0 +1,1 @@
+Data available in kaggle : https://www.kaggle.com/datasets/raghu07/ipl-data-till-2017?resource=download
