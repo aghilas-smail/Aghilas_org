@@ -7,7 +7,7 @@ import pandas as pd
 current_directory = os.getcwd()
 print(abspath(current_directory))
 
-def get_data_init(ticker: str = 'NDX', period: str = 'max', filter_years: List[int] = None) -> pd.DataFrame:
+def get_data_init(ticker: str = 'SYY', period: str = 'max', filter_years: List[int] = None) -> pd.DataFrame:
 
     stock = yf.Ticker(ticker)
     hist = stock.history(period=period)
@@ -25,6 +25,6 @@ def get_data_init(ticker: str = 'NDX', period: str = 'max', filter_years: List[i
     return data
 
 df = get_data_init()
-df.to_csv(abspath(join(current_directory, 'NDX.csv')))
+df.to_csv(abspath(join(current_directory, 'SYY.csv')))
 
 

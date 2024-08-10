@@ -5,7 +5,7 @@ from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, LSTM
 # Load the data
-data = pd.read_csv('NDX.csv')
+data = pd.read_csv('SYY.csv')
 
 # Convert date to datetime format
 data['Date'] = pd.to_datetime(data['Date'], utc=True)  # convert 'Date' column to datetime type
@@ -93,6 +93,6 @@ for _ in range(30):
 # Invert the predictions
 future_predictions = scaler.inverse_transform(np.hstack((np.array(future_predictions).reshape(-1, 1), np.zeros((30, 4)))))
 
-last_day_stock = data[]
+last_day_stock = data[30]
 # Print future predictions
 print("Future Predictions: ", future_predictions[:, 0])
