@@ -1,0 +1,1270 @@
+PS C:\Users\aghil\Desktop\Aghilas_org\PYTHON TRAIN\cours 1> python .\exuter3.py
+Exécution numéro 1
+2024-08-10 23:14:49.738919: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-10 23:14:50.428880: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+0       80.00
+1       85.00
+2       90.00
+3       82.50
+4       87.50
+        ...
+7214    11.38
+7215    11.53
+7216    10.71
+7217    11.68
+7218    11.60
+Name: Close, Length: 7219, dtype: float64
+C:\Users\aghil\Desktop\Aghilas_org\PYTHON TRAIN\cours 1\aghilas_train3.py:23: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  data.fillna(method='ffill', inplace=True)
+2024-08-10 23:14:51.874921: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\Users\aghil\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\rnn\rnn.py:204: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+5726/5726 ━━━━━━━━━━━━━━━━━━━━ 75s 13ms/step - loss: 0.0022
+179/179 ━━━━━━━━━━━━━━━━━━━━ 2s 9ms/step
+45/45 ━━━━━━━━━━━━━━━━━━━━ 0s 9ms/step
+Train Score: 101.62 RMSE
+Test Score: 102.93 RMSE
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 37ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 0s/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 14ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+11.600000381469728
+Future Predictions:  [14.34392593 16.07640835 17.9071355  19.66403598 21.31121474 22.85212815
+ 24.30920195 25.71197302 27.08916315 28.46427372 29.85388143 31.2678606
+ 32.71070497 34.18313163 35.68373032 37.21020156 38.76028414 40.33220445
+ 41.92491078 43.53804456 45.17180182 46.82676099 48.50373478 50.20361238
+ 51.92728298 53.67558796 55.44926832 57.24903158 59.07551356 60.92933574]
+up
+Exécution numéro 2
+2024-08-10 23:16:12.103427: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-10 23:16:12.738800: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+0       80.00
+1       85.00
+2       90.00
+3       82.50
+4       87.50
+        ...
+7214    11.38
+7215    11.53
+7216    10.71
+7217    11.68
+7218    11.60
+Name: Close, Length: 7219, dtype: float64
+C:\Users\aghil\Desktop\Aghilas_org\PYTHON TRAIN\cours 1\aghilas_train3.py:23: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  data.fillna(method='ffill', inplace=True)
+2024-08-10 23:16:14.064914: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\Users\aghil\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\rnn\rnn.py:204: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+5726/5726 ━━━━━━━━━━━━━━━━━━━━ 70s 12ms/step - loss: 0.0028
+179/179 ━━━━━━━━━━━━━━━━━━━━ 2s 9ms/step
+45/45 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step
+Train Score: 96.64 RMSE
+Test Score: 97.79 RMSE
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 0s/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 15ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 13ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 13ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 25ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+11.600000381469728
+Future Predictions:  [18.88208315 22.35916799 26.13606398 29.64113559 32.75243474 35.46805876
+ 37.83778792 39.93338369 41.82945672 43.59161108 45.27064052 46.90127127
+ 48.5039021  50.08775477 51.65446424 53.20127211 54.72353643 56.21651964
+ 57.67628252 59.10018141 60.48683472 61.83594605 63.1479839  64.42388527
+ 65.6647736  66.87181534 68.04611482 69.18861859 70.30017281 71.38148981]
+up
+Exécution numéro 3
+2024-08-10 23:17:29.141672: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-10 23:17:29.823791: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+0       80.00
+1       85.00
+2       90.00
+3       82.50
+4       87.50
+        ...
+7214    11.38
+7215    11.53
+7216    10.71
+7217    11.68
+7218    11.60
+Name: Close, Length: 7219, dtype: float64
+C:\Users\aghil\Desktop\Aghilas_org\PYTHON TRAIN\cours 1\aghilas_train3.py:23: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  data.fillna(method='ffill', inplace=True)
+2024-08-10 23:17:31.245698: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\Users\aghil\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\rnn\rnn.py:204: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+5726/5726 ━━━━━━━━━━━━━━━━━━━━ 69s 12ms/step - loss: 0.0027
+179/179 ━━━━━━━━━━━━━━━━━━━━ 2s 8ms/step
+45/45 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step
+Train Score: 105.63 RMSE
+Test Score: 107.00 RMSE
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 20ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 23ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 25ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 20ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 23ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 23ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 27ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+11.600000381469728
+Future Predictions:  [   9.09603625    7.6356752     5.85613683    3.91914433    1.852703
+   -0.33823208   -2.65736707   -5.11314806   -7.71654054  -10.47987484
+  -13.41613745  -16.53870923  -19.86121727  -23.39750613  -27.16167141
+  -31.16804053  -35.43126599  -39.96617002  -44.7878832   -49.91166276
+  -55.35295959  -61.12722455  -67.24990851  -73.73630936  -80.60138078
+  -87.85973226  -95.5252084  -103.610908   -112.12877299 -121.0894354 ]
+Down
+Exécution numéro 4
+2024-08-10 23:18:45.360703: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-10 23:18:46.077941: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+0       80.00
+1       85.00
+2       90.00
+3       82.50
+4       87.50
+        ...
+7214    11.38
+7215    11.53
+7216    10.71
+7217    11.68
+7218    11.60
+Name: Close, Length: 7219, dtype: float64
+C:\Users\aghil\Desktop\Aghilas_org\PYTHON TRAIN\cours 1\aghilas_train3.py:23: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  data.fillna(method='ffill', inplace=True)
+2024-08-10 23:18:47.534200: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\Users\aghil\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\rnn\rnn.py:204: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+5726/5726 ━━━━━━━━━━━━━━━━━━━━ 75s 13ms/step - loss: 0.0027
+179/179 ━━━━━━━━━━━━━━━━━━━━ 2s 9ms/step
+45/45 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step
+Train Score: 102.58 RMSE
+Test Score: 103.90 RMSE
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 25ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 25ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 30ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 22ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 25ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 27ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 22ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 26ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 25ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 26ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 22ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 24ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 20ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 20ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 25ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 26ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 26ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 24ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 30ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 22ms/step
+11.600000381469728
+Future Predictions:  [16.74187133 19.79923825 23.13539965 26.41772682 29.55501804 32.51529355
+ 35.29966246 37.93011786 40.43969842 42.86488244 45.24016426 47.5948011
+ 49.9513454  52.32548227 54.72679202 57.15991659 59.62593163 62.12364677
+ 64.65062868 67.20412375 69.78160782 72.38113041 75.00142945 77.64202687
+ 80.30308523 82.98525467 85.68960605 88.41742057 91.17009416 93.94905143]
+up
+Exécution numéro 5
+2024-08-10 23:20:08.075581: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-10 23:20:08.824098: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+0       80.00
+1       85.00
+2       90.00
+3       82.50
+4       87.50
+        ...
+7214    11.38
+7215    11.53
+7216    10.71
+7217    11.68
+7218    11.60
+Name: Close, Length: 7219, dtype: float64
+C:\Users\aghil\Desktop\Aghilas_org\PYTHON TRAIN\cours 1\aghilas_train3.py:23: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  data.fillna(method='ffill', inplace=True)
+2024-08-10 23:20:10.370732: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\Users\aghil\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\rnn\rnn.py:204: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+5726/5726 ━━━━━━━━━━━━━━━━━━━━ 70s 12ms/step - loss: 0.0023
+179/179 ━━━━━━━━━━━━━━━━━━━━ 2s 8ms/step
+45/45 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step
+Train Score: 95.55 RMSE
+Test Score: 96.62 RMSE
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 31ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 23ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 9ms/step
+11.600000381469728
+Future Predictions:  [23.69096283 30.24591376 36.31169913 41.16631233 44.86125465 47.65798139
+ 49.87524318 51.79779591 53.62945049 55.48341608 57.39713906 59.35769748
+ 61.3274442  63.26390844 65.13224449 66.91047597 68.58970142 70.1712116
+ 71.66250248 73.07355592 74.41412434 75.69218175 76.91341707 78.08147788
+ 79.19852022 80.26590179 81.28468866 82.25605685 83.18144532 84.0625703 ]
+up
+Exécution numéro 6
+2024-08-10 23:21:25.200406: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-10 23:21:25.824128: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+0       80.00
+1       85.00
+2       90.00
+3       82.50
+4       87.50
+        ...
+7214    11.38
+7215    11.53
+7216    10.71
+7217    11.68
+7218    11.60
+Name: Close, Length: 7219, dtype: float64
+C:\Users\aghil\Desktop\Aghilas_org\PYTHON TRAIN\cours 1\aghilas_train3.py:23: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  data.fillna(method='ffill', inplace=True)
+2024-08-10 23:21:27.193226: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\Users\aghil\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\rnn\rnn.py:204: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+5726/5726 ━━━━━━━━━━━━━━━━━━━━ 69s 12ms/step - loss: 0.0026
+179/179 ━━━━━━━━━━━━━━━━━━━━ 2s 8ms/step
+45/45 ━━━━━━━━━━━━━━━━━━━━ 0s 9ms/step
+Train Score: 98.99 RMSE
+Test Score: 100.32 RMSE
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 14ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 15ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 29ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 14ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 0s/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 39ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 23ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 0s/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 31ms/step
+11.600000381469728
+Future Predictions:  [11.18203379 10.95813901 10.66802529 10.35399009 10.02757137  9.69528567
+  9.36149229  9.02902313  8.69952153  8.37377269  8.05194931  7.73385419
+  7.41908517  7.10714865  6.79753311  6.48979036  6.18352242  5.87842514
+  5.57425887  5.27085152  4.96810748  4.66595623  4.36437148  4.06335921
+  3.76291941  3.46309511  3.16389827  2.86537549  2.56754828  2.27043697]
+Down
+Exécution numéro 7
+2024-08-10 23:22:41.302567: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-10 23:22:41.908832: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+0       80.00
+1       85.00
+2       90.00
+3       82.50
+4       87.50
+        ...
+7214    11.38
+7215    11.53
+7216    10.71
+7217    11.68
+7218    11.60
+Name: Close, Length: 7219, dtype: float64
+C:\Users\aghil\Desktop\Aghilas_org\PYTHON TRAIN\cours 1\aghilas_train3.py:23: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  data.fillna(method='ffill', inplace=True)
+2024-08-10 23:22:43.243333: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\Users\aghil\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\rnn\rnn.py:204: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+5726/5726 ━━━━━━━━━━━━━━━━━━━━ 69s 12ms/step - loss: 0.0027
+179/179 ━━━━━━━━━━━━━━━━━━━━ 1s 7ms/step
+45/45 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step
+Train Score: 100.75 RMSE
+Test Score: 101.89 RMSE
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 15ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 15ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 20ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 15ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 20ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 14ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+11.600000381469728
+Future Predictions:  [ 21.95086254  28.31866649  34.70748593  40.86575182  46.80394801
+  52.53927028  58.0834741   63.44116796  68.61160609  73.59130822
+  78.37627777  82.96356513  87.35205641  91.54272207  95.53853086
+  99.34409127 102.96533123 106.40903918 109.68268241 112.79400546
+ 115.75081983 118.56087963 121.23175731 123.77073851 126.18471682
+ 128.48030859 130.66368077 132.74061789 134.71657938 136.59662309]
+up
+Exécution numéro 8
+2024-08-10 23:23:57.379649: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-10 23:23:58.071342: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+0       80.00
+1       85.00
+2       90.00
+3       82.50
+4       87.50
+        ...
+7214    11.38
+7215    11.53
+7216    10.71
+7217    11.68
+7218    11.60
+Name: Close, Length: 7219, dtype: float64
+C:\Users\aghil\Desktop\Aghilas_org\PYTHON TRAIN\cours 1\aghilas_train3.py:23: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  data.fillna(method='ffill', inplace=True)
+2024-08-10 23:23:59.517698: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\Users\aghil\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\rnn\rnn.py:204: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+5726/5726 ━━━━━━━━━━━━━━━━━━━━ 70s 12ms/step - loss: 0.0023
+179/179 ━━━━━━━━━━━━━━━━━━━━ 2s 7ms/step
+45/45 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step
+Train Score: 99.65 RMSE
+Test Score: 100.87 RMSE
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 22ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 15ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 15ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 22ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 22ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 20ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 15ms/step
+11.600000381469728
+Future Predictions:  [13.6879823  14.98939529 16.29669916 17.52495477 18.67537878 19.76961054
+ 20.8339911  21.89167883 22.95933528 24.04689094 25.15890172 26.29639543
+ 27.4585785  28.64405978 29.85157719 31.08032998 32.32998113 33.60059278
+ 34.89240873 36.20578993 37.54105189 38.89846233 40.27818378 41.6803023
+ 43.10484179 44.551764   46.0210068  47.51246977 49.02605254 50.56161646]
+up
+Exécution numéro 9
+2024-08-10 23:25:15.061472: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-10 23:25:15.755132: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+0       80.00
+1       85.00
+2       90.00
+3       82.50
+4       87.50
+        ...
+7214    11.38
+7215    11.53
+7216    10.71
+7217    11.68
+7218    11.60
+Name: Close, Length: 7219, dtype: float64
+C:\Users\aghil\Desktop\Aghilas_org\PYTHON TRAIN\cours 1\aghilas_train3.py:23: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  data.fillna(method='ffill', inplace=True)
+2024-08-10 23:25:17.217088: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\Users\aghil\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\rnn\rnn.py:204: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+5726/5726 ━━━━━━━━━━━━━━━━━━━━ 71s 12ms/step - loss: 0.0024
+179/179 ━━━━━━━━━━━━━━━━━━━━ 1s 7ms/step
+45/45 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step
+Train Score: 93.32 RMSE
+Test Score: 94.53 RMSE
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 24ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 23ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 15ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 15ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 24ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 15ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 15ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 15ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 15ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 15ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 15ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 15ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+11.600000381469728
+Future Predictions:  [11.65462026 11.69575306 11.71632633 11.72839075 11.73429059 11.73531663
+ 11.73246381 11.7265311  11.71819375 11.70796209 11.69629625 11.68358167
+ 11.67013148 11.65621937 11.64207719 11.62788481 11.61379163 11.59992672
+ 11.5863594  11.57316198 11.56038227 11.54803819 11.5361399  11.52468978
+ 11.51368008 11.50310661 11.49294308 11.48318111 11.47379203 11.46476209]
+Down
+Exécution numéro 10
+2024-08-10 23:26:33.687586: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-10 23:26:34.400011: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+0       80.00
+1       85.00
+2       90.00
+3       82.50
+4       87.50
+        ...
+7214    11.38
+7215    11.53
+7216    10.71
+7217    11.68
+7218    11.60
+Name: Close, Length: 7219, dtype: float64
+C:\Users\aghil\Desktop\Aghilas_org\PYTHON TRAIN\cours 1\aghilas_train3.py:23: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  data.fillna(method='ffill', inplace=True)
+2024-08-10 23:26:35.893245: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\Users\aghil\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\rnn\rnn.py:204: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+5726/5726 ━━━━━━━━━━━━━━━━━━━━ 68s 12ms/step - loss: 0.0022
+179/179 ━━━━━━━━━━━━━━━━━━━━ 2s 8ms/step
+45/45 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step
+Train Score: 104.40 RMSE
+Test Score: 105.76 RMSE
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 20ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 9ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 30ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 30ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 11ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 31ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+11.600000381469728
+Future Predictions:  [   7.85591522    5.48124292    2.56097139   -0.60213741   -3.92506614
+   -7.37474266  -10.94450283  -14.64515079  -18.49805578  -22.5297668
+  -26.76789417  -31.23867375  -35.96550176  -40.96841127  -46.26412955
+  -51.86639843  -57.78654789  -64.03383316  -70.61583625  -77.53868589
+  -84.80709574  -92.42437396 -100.39199298 -108.70968508 -117.37505041
+ -126.38308847 -135.72629373 -145.39424451 -155.37340216 -165.64717805]
+Down
+Exécution numéro 11
+2024-08-10 23:27:49.024059: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-10 23:27:49.680358: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+0       80.00
+1       85.00
+2       90.00
+3       82.50
+4       87.50
+        ...
+7214    11.38
+7215    11.53
+7216    10.71
+7217    11.68
+7218    11.60
+Name: Close, Length: 7219, dtype: float64
+C:\Users\aghil\Desktop\Aghilas_org\PYTHON TRAIN\cours 1\aghilas_train3.py:23: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  data.fillna(method='ffill', inplace=True)
+2024-08-10 23:27:51.045335: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\Users\aghil\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\rnn\rnn.py:204: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+5726/5726 ━━━━━━━━━━━━━━━━━━━━ 69s 12ms/step - loss: 0.0024
+179/179 ━━━━━━━━━━━━━━━━━━━━ 2s 9ms/step
+45/45 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step
+Train Score: 103.53 RMSE
+Test Score: 104.99 RMSE
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 20ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 0s/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 48ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 25ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 14ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 29ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 22ms/step
+11.600000381469728
+Future Predictions:  [  -1.33696557   -8.9699552   -18.82168981  -29.82553836  -41.67476264
+  -54.24879138  -67.52300452  -81.53593842  -96.36296865 -112.09394161
+ -128.81509917 -146.59674469 -165.48488657 -185.49703133 -206.62031919
+ -228.81113204 -251.99625036 -276.07424913 -300.91721887 -326.37376785
+ -352.27233023 -378.42541124 -404.6347885  -430.69803266 -456.41470313
+ -481.59346155 -506.05819097 -529.65354132 -552.2493658  -573.74313031]
+Down
+Exécution numéro 12
+2024-08-10 23:29:05.740712: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-10 23:29:06.345902: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+0       80.00
+1       85.00
+2       90.00
+3       82.50
+4       87.50
+        ...
+7214    11.38
+7215    11.53
+7216    10.71
+7217    11.68
+7218    11.60
+Name: Close, Length: 7219, dtype: float64
+C:\Users\aghil\Desktop\Aghilas_org\PYTHON TRAIN\cours 1\aghilas_train3.py:23: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  data.fillna(method='ffill', inplace=True)
+2024-08-10 23:29:07.698997: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\Users\aghil\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\rnn\rnn.py:204: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+5726/5726 ━━━━━━━━━━━━━━━━━━━━ 68s 12ms/step - loss: 0.0025
+179/179 ━━━━━━━━━━━━━━━━━━━━ 2s 9ms/step
+45/45 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step
+Train Score: 94.03 RMSE
+Test Score: 95.16 RMSE
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 20ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 15ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 15ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 13ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 33ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 22ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 22ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 23ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 24ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 27ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 25ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 22ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+11.600000381469728
+Future Predictions:  [16.34847056 18.74898434 21.27753309 23.5815877  25.58709443 27.29918405
+ 28.76017793 30.0286646  31.1648819  32.22121552 33.23732048 34.2390024
+ 35.23962302 36.24289209 37.24605121 38.24289995 39.22618854 40.18923611
+ 41.12689397 42.03589218 42.91475595 43.76347331 44.58305775 45.37509643
+ 46.14141075 46.88376475 47.60367388 48.30238587 48.98085684 49.63977519]
+up
+Exécution numéro 13
+2024-08-10 23:30:21.119804: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-10 23:30:21.860261: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+0       80.00
+1       85.00
+2       90.00
+3       82.50
+4       87.50
+        ...
+7214    11.38
+7215    11.53
+7216    10.71
+7217    11.68
+7218    11.60
+Name: Close, Length: 7219, dtype: float64
+C:\Users\aghil\Desktop\Aghilas_org\PYTHON TRAIN\cours 1\aghilas_train3.py:23: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  data.fillna(method='ffill', inplace=True)
+2024-08-10 23:30:23.386393: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\Users\aghil\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\rnn\rnn.py:204: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+5726/5726 ━━━━━━━━━━━━━━━━━━━━ 68s 12ms/step - loss: 0.0023
+179/179 ━━━━━━━━━━━━━━━━━━━━ 2s 8ms/step
+45/45 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step
+Train Score: 97.61 RMSE
+Test Score: 98.87 RMSE
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 0s/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 13ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+11.600000381469728
+Future Predictions:  [11.75920763 11.82295441 11.83899867 11.8209382  11.77836346 11.72015977
+ 11.6537968  11.58479077 11.51662254 11.45103582 11.38852422 11.32876864
+ 11.27106392 11.21462546 11.1587559  11.10293772 11.04686558 10.99040143
+ 10.93355005 10.8763951  10.81903697 10.76161013 10.70421914 10.64694707
+ 10.58983754 10.53292281 10.47620888 10.41968258 10.36333973 10.30717078]
+Down
+Exécution numéro 14
+2024-08-10 23:31:37.067881: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-10 23:31:37.692862: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+0       80.00
+1       85.00
+2       90.00
+3       82.50
+4       87.50
+        ...
+7214    11.38
+7215    11.53
+7216    10.71
+7217    11.68
+7218    11.60
+Name: Close, Length: 7219, dtype: float64
+C:\Users\aghil\Desktop\Aghilas_org\PYTHON TRAIN\cours 1\aghilas_train3.py:23: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  data.fillna(method='ffill', inplace=True)
+2024-08-10 23:31:39.038556: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\Users\aghil\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\rnn\rnn.py:204: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+5726/5726 ━━━━━━━━━━━━━━━━━━━━ 71s 12ms/step - loss: 0.0021
+179/179 ━━━━━━━━━━━━━━━━━━━━ 2s 8ms/step
+45/45 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step
+Train Score: 96.68 RMSE
+Test Score: 97.76 RMSE
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 11ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 11ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 28ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+11.600000381469728
+Future Predictions:  [20.52247706 24.92967718 29.26557718 33.0376137  36.295426   39.19772729
+ 41.90655331 44.54144749 47.16616379 49.7961005  52.41522352 54.99384537
+ 57.50229771 59.91875237 62.23177417 64.43912579 66.54484207 68.55592177
+ 70.4798035  72.32278808 74.0895318  75.78315161 77.40575097 78.95895527
+ 80.44438992 81.86384286 83.21938887 84.51335131 85.7481396  86.92623965]
+up
+Exécution numéro 15
+2024-08-10 23:32:55.120387: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-10 23:32:55.729249: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+0       80.00
+1       85.00
+2       90.00
+3       82.50
+4       87.50
+        ...
+7214    11.38
+7215    11.53
+7216    10.71
+7217    11.68
+7218    11.60
+Name: Close, Length: 7219, dtype: float64
+C:\Users\aghil\Desktop\Aghilas_org\PYTHON TRAIN\cours 1\aghilas_train3.py:23: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  data.fillna(method='ffill', inplace=True)
+2024-08-10 23:32:57.058067: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\Users\aghil\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\rnn\rnn.py:204: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+5726/5726 ━━━━━━━━━━━━━━━━━━━━ 68s 12ms/step - loss: 0.0028
+179/179 ━━━━━━━━━━━━━━━━━━━━ 2s 8ms/step
+45/45 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step
+Train Score: 94.31 RMSE
+Test Score: 95.50 RMSE
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 24ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 0s/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 27ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 0s/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 42ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 23ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 0s/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 20ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+11.600000381469728
+Future Predictions:  [15.36356733 17.06040447 18.8651252  20.55139844 22.08009026 23.4560482
+ 24.69990288 25.83739898 26.8935127  27.889238   28.84033887 29.75737565
+ 30.64653203 31.5106907  32.35058787 33.16576938 33.95532454 34.71838089
+ 35.45435281 36.16308491 36.84482581 37.50015394 38.12990113 38.73503784
+ 39.31661102 39.87565806 40.4131781  40.93011769 41.42734691 41.9056689 ]
+up
+Exécution numéro 16
+2024-08-10 23:34:10.840489: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-10 23:34:11.447779: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+0       80.00
+1       85.00
+2       90.00
+3       82.50
+4       87.50
+        ...
+7214    11.38
+7215    11.53
+7216    10.71
+7217    11.68
+7218    11.60
+Name: Close, Length: 7219, dtype: float64
+C:\Users\aghil\Desktop\Aghilas_org\PYTHON TRAIN\cours 1\aghilas_train3.py:23: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  data.fillna(method='ffill', inplace=True)
+2024-08-10 23:34:12.763060: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\Users\aghil\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\rnn\rnn.py:204: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+5726/5726 ━━━━━━━━━━━━━━━━━━━━ 69s 12ms/step - loss: 0.0023
+179/179 ━━━━━━━━━━━━━━━━━━━━ 2s 9ms/step
+45/45 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step
+Train Score: 97.65 RMSE
+Test Score: 99.02 RMSE
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 0s/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 47ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 13ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 0s/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 587us/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 28ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 26ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 31ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+11.600000381469728
+Future Predictions:  [  7.94168021   6.01274539   3.81662695   1.64272273  -0.45154403
+  -2.46122422  -4.40090461  -6.29110708  -8.15062055  -9.99295019
+ -11.82544615 -13.65022146 -15.46576067 -17.2686576  -19.05492765
+ -20.82097579 -22.56403408 -24.28222134 -25.97450258 -27.64042365
+ -29.27988415 -30.89293666 -32.47971983 -34.04028147 -35.57464546
+ -37.08274728 -38.56451044 -40.01980825 -41.4485451  -42.8506445 ]
+Down
+Exécution numéro 17
+2024-08-10 23:35:30.432317: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-10 23:35:32.172491: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+0       80.00
+1       85.00
+2       90.00
+3       82.50
+4       87.50
+        ...
+7214    11.38
+7215    11.53
+7216    10.71
+7217    11.68
+7218    11.60
+Name: Close, Length: 7219, dtype: float64
+C:\Users\aghil\Desktop\Aghilas_org\PYTHON TRAIN\cours 1\aghilas_train3.py:23: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  data.fillna(method='ffill', inplace=True)
+2024-08-10 23:35:34.887798: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\Users\aghil\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\rnn\rnn.py:204: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+5726/5726 ━━━━━━━━━━━━━━━━━━━━ 70s 12ms/step - loss: 0.0029
+179/179 ━━━━━━━━━━━━━━━━━━━━ 2s 9ms/step
+45/45 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step
+Train Score: 99.10 RMSE
+Test Score: 100.35 RMSE
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 0s/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 33ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 14ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 14ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 13ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+11.600000381469728
+Future Predictions:  [15.73914486 18.02906804 20.29635991 22.37393524 24.26064071 25.98715337
+ 27.59068295 29.10558994 30.55967826 31.97346142 33.36106607 34.73163747
+ 36.09078565 37.44177098 38.78641485 40.1256686  41.46000791 42.78964311
+ 44.11463637 45.43495898 46.75052969 48.06123854 49.36696123 50.66754001
+ 51.96285057 53.25276385 54.53717467 55.81597786 57.08911127 58.35652231]
+up
+Exécution numéro 18
+2024-08-10 23:36:50.557420: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-10 23:36:51.201285: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+0       80.00
+1       85.00
+2       90.00
+3       82.50
+4       87.50
+        ...
+7214    11.38
+7215    11.53
+7216    10.71
+7217    11.68
+7218    11.60
+Name: Close, Length: 7219, dtype: float64
+C:\Users\aghil\Desktop\Aghilas_org\PYTHON TRAIN\cours 1\aghilas_train3.py:23: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  data.fillna(method='ffill', inplace=True)
+2024-08-10 23:36:52.545160: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\Users\aghil\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\rnn\rnn.py:204: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+5726/5726 ━━━━━━━━━━━━━━━━━━━━ 69s 12ms/step - loss: 0.0025
+179/179 ━━━━━━━━━━━━━━━━━━━━ 2s 8ms/step
+45/45 ━━━━━━━━━━━━━━━━━━━━ 0s 9ms/step
+Train Score: 90.57 RMSE
+Test Score: 91.80 RMSE
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 9ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 14ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 15ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+11.600000381469728
+Future Predictions:  [  6.13922368   3.06924497  -0.44650768  -3.99424248  -7.44741719
+ -10.74389013 -13.85726405 -16.78544268 -19.54162284 -22.14724307
+ -24.62673221 -27.00385695 -29.29973555 -31.53172634 -33.71321497
+ -35.85392039 -37.96037287 -40.03666939 -42.08502336 -44.1064148
+ -46.10102537 -48.0686734  -50.00899081 -51.92163815 -53.80637641
+ -55.66310996 -57.49192009 -59.29297411 -61.06661144 -62.81322888]
+Down
+Exécution numéro 19
+2024-08-10 23:38:06.723083: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-10 23:38:07.352417: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+0       80.00
+1       85.00
+2       90.00
+3       82.50
+4       87.50
+        ...
+7214    11.38
+7215    11.53
+7216    10.71
+7217    11.68
+7218    11.60
+Name: Close, Length: 7219, dtype: float64
+C:\Users\aghil\Desktop\Aghilas_org\PYTHON TRAIN\cours 1\aghilas_train3.py:23: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  data.fillna(method='ffill', inplace=True)
+2024-08-10 23:38:08.706738: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\Users\aghil\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\rnn\rnn.py:204: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+5726/5726 ━━━━━━━━━━━━━━━━━━━━ 68s 12ms/step - loss: 0.0025
+179/179 ━━━━━━━━━━━━━━━━━━━━ 2s 9ms/step
+45/45 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step
+Train Score: 104.47 RMSE
+Test Score: 105.93 RMSE
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 0s/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 0s/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 30ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+11.600000381469728
+Future Predictions:  [ 10.23851015   9.42732879   8.47916977   7.50666678   6.5397541
+   5.59041129   4.66028167   3.7443743    2.83414987   1.92002208
+   0.99307872   0.04609393  -0.92609174  -1.9265797   -2.95678501
+  -4.01686782  -5.10617078  -6.22366729  -7.36827452  -8.53900767
+  -9.73517835 -10.95631806 -12.20223078 -13.47292609 -14.76851632
+ -16.08919748 -17.43515123 -18.80655924 -20.20353145 -21.62608699]
+Down
+Exécution numéro 20
+2024-08-10 23:39:22.331823: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-10 23:39:22.964784: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+0       80.00
+1       85.00
+2       90.00
+3       82.50
+4       87.50
+        ...
+7214    11.38
+7215    11.53
+7216    10.71
+7217    11.68
+7218    11.60
+Name: Close, Length: 7219, dtype: float64
+C:\Users\aghil\Desktop\Aghilas_org\PYTHON TRAIN\cours 1\aghilas_train3.py:23: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  data.fillna(method='ffill', inplace=True)
+2024-08-10 23:39:24.303541: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\Users\aghil\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\rnn\rnn.py:204: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+5726/5726 ━━━━━━━━━━━━━━━━━━━━ 69s 12ms/step - loss: 0.0025
+179/179 ━━━━━━━━━━━━━━━━━━━━ 2s 9ms/step
+45/45 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step
+Train Score: 98.17 RMSE
+Test Score: 99.50 RMSE
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 23ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 0s/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 33ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 9ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 13ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 20ms/step
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+11.600000381469728
+Future Predictions:  [   4.95482939    1.25729718   -2.88051189   -7.09340849  -11.3457366
+  -15.64797168  -20.02190965  -24.4906766   -29.07460798  -33.78999604
+  -38.64924641  -43.66159997  -48.83408897  -54.172235    -59.68054137
+  -65.36298552  -71.22312901  -77.26416526  -83.48899132  -89.90018392
+  -96.49985608 -103.28971925 -110.27079648 -117.44371881 -124.8082759
+ -132.36361679 -140.10810652 -148.03926876 -156.15374752 -164.44723071]
+Down
+PS C:\Users\aghil\Desktop\Aghila

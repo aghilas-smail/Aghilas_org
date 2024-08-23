@@ -1,7 +1,6 @@
--- probleme link : https://leetcode.com/problems/confirmation-rate/description/?envType=study-plan-v2&envId=top-sql-50
+-- Link : https://leetcode.com/problems/confirmation-rate/description/?envType=study-plan-v2&envId=top-sql-50
 -- author : Aghilas SMAIL
 
-# Write your MySQL query statement bese
 select S.user_id,
 
         round( -- Handles cases where the user has no confirmation messages by setting the rate to 0.

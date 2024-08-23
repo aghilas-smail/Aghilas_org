@@ -1,4 +1,7 @@
-# Write your MySQL query statement below
+-- Link : https://leetcode.com/problems/managers-with-at-least-5-direct-reports/?envType=study-plan-v2&envId=top-sql-50
+-- Author : Aghilas SMAIL
+
+
 select E.name 
 from Employee E
 where E.id IN (
