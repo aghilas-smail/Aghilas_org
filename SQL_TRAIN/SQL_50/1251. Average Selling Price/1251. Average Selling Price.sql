@@ -2,7 +2,7 @@
 -- Author : Aghilas SMAIL
 
 select p.product_id, 
-        ROUND(SUM(us.units * p.price) / SUM(us.units),2) as average_price
+        iFNULL(ROUND(SUM(us.units * p.price) / SUM(us.units),2),0) as average_price
 from 
     UnitsSold us
 JOIN
