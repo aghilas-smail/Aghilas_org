@@ -2,6 +2,7 @@
 -- Author : Aghilas SMAIL
 
 select r.contest_id, round(count(distinct r.user_id)/count(distinct u.user_id)*100,2) as percentage
+-- we found the number of user of each contest_id in register table and we divid the result on the number total of user in User table
 from Users u, Register r
 group by contest_id
 order by percentage DESC, contest_id asc 
