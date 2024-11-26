@@ -1,5 +1,7 @@
 -- Link : https://leetcode.com/problems/product-price-at-a-given-date/description/?envType=study-plan-v2&envId=top-sql-50
-
+Dans cette exemple, y'a 2 condition:
+    - Si le prix d'un produit a été changer aprés le 18 aout alors on mette le prix qui a dans la table.
+    - Sinon on mette une valeur par defaut qui est le 10.
 select p1.product_id, 
        coalesce(p2.new_price, 10) as price
 from 
@@ -13,3 +15,4 @@ left join
     )
 order by
     p1.product_id
+
