@@ -10,10 +10,17 @@ Télécharger une base de données existante : Vous pouvez télécharger un exem
 
 Importer la base de données dans SSMS : Après avoir téléchargé la base de données de votre choix, importez-la dans SSMS pour qu'elle soit visible et exploitable dans le logiciel.
 
-# Partie Création des ressources necessaires :
+## Partie Création des ressources necessaires :
 
 - Crée un resource groupe qui va contenaire tous nous ressources pour réaliser ce projet.
 - Commencent par le Data factory.
 - Ensuit le data lake Gen2.
 - Aprés il faut crée une ressource pour databricks.
 - Et enfin crée une ressource pour Synapse.
+
+## Liée Data factory avec la base de données:
+- Crée une key dans SSMS avec cette commande :
+    create login luke with password = '123456789'
+    create user luke for login luke
+- Ensuite crée un "control access" dans le panelle a droite.
+- Une fois crée, maintenant on crée une certificate dans le pannel de key vault.
