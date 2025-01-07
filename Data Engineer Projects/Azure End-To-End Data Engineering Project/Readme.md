@@ -24,3 +24,12 @@ Importer la base de données dans SSMS : Après avoir téléchargé la base de d
     create user luke for login luke
 - Ensuite crée un "control access" dans le panelle a droite.
 - Une fois crée, maintenant on crée une certificate dans le pannel de key vault.
+
+## Query pour interagire avec la DB:
+<!-- SELECT 
+s.name AS SchemaName, 
+t.Name AS TableName
+FROM sys.tables t
+INNER JOIN sys.schemas s
+ON t.schema_id = s.schema_id
+WHERE s.name = 'SalesLT' -->
