@@ -33,3 +33,9 @@ FROM sys.tables t
 INNER JOIN sys.schemas s
 ON t.schema_id = s.schema_id
 WHERE s.name = 'SalesLT' -->
+
+
+## Migration des données.
+- Les données sont bien copée de SQL server vers azure data lake notamment le contenaire bronze.
+- Maintenant la prochaine étape ca sera d'utiliser databricks pour faire des transformation.
+## 
