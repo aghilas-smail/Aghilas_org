@@ -19,13 +19,15 @@ Importer la base de données dans SSMS : Après avoir téléchargé la base de d
 - Et enfin crée une ressource pour Synapse.
 
 ## Liée Data factory avec la base de données:
+
 - Crée une key dans SSMS avec cette commande :
-    create login luke with password = '123456789'
-    create user luke for login luke
+  create login luke with password = '123456789'
+  create user luke for login luke
 - Ensuite crée un "control access" dans le panelle a droite.
 - Une fois crée, maintenant on crée une certificate dans le pannel de key vault.
 
 ## Query pour interagire avec la DB:
+
 <!-- SELECT 
 s.name AS SchemaName, 
 t.Name AS TableName
@@ -34,8 +36,23 @@ INNER JOIN sys.schemas s
 ON t.schema_id = s.schema_id
 WHERE s.name = 'SalesLT' -->
 
-
 ## Migration des données.
+
 - Les données sont bien copée de SQL server vers azure data lake notamment le contenaire bronze.
 - Maintenant la prochaine étape ca sera d'utiliser databricks pour faire des transformation.
-## 
+
+## Partie Databricks.
+
+- Utiliser un ETL pour extract, transform et load les données.
+- Utilisation de Data Factory pour faire cela.
+
+### Partie connection entre databrics et data lake:
+
+### Partie contenaire bronze au contenaire silver:
+
+![Description de l'image][def]
+
+
+### Partie contenaire silve au gold:
+
+[def]: Images/bronze_to_silver.png
