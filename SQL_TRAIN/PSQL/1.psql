@@ -1,3 +1,4 @@
+-- Note that all queries are executed on the MYSQL server, so if you're using PostgSQL you'll need to change the syntax of some queries.
 drop table if exists students;
 create table if not exists students (
     id integer,
@@ -20,4 +21,18 @@ select count(*)
 from students
 where live_on_campus = false;
 
--- Give me count of students who 
+-- Give me count of students who live off campus
+-- and who live on campus irrespective of age
+
+select live_on_campus, count(*)
+from students
+group by live_on_campus;
+
+
+-- Give me separate count of students between age group 10-20
+-- and age 21-30 who live off campus and who live on the campus
+
+select 
+    sum(case when age between 0 and 20 then 1 else 0 end) as test1, live_on_campus
+from students
+group by live_on_campus;
