@@ -33,6 +33,8 @@ group by live_on_campus;
 -- and age 21-30 who live off campus and who live on the campus
 
 select 
-    sum(case when age between 0 and 20 then 1 else 0 end) as test1, live_on_campus
+    sum(case when age between 0 and 20 then 1 else 0 end) as age_0_20,
+    sum(case when age between 21 and 30 then 1 else 0 end) as age_21_30
 from students
 group by live_on_campus;
+
