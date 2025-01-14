@@ -1,8 +1,15 @@
+-- Understand view on SQL 
+
 drop table if exists demo cascade;
 
 -- create Table
 
 create table demo (
+    id integer,
+    Name varchar(255)
+);
+
+create table demo1 (
     id integer,
     Name varchar(255)
 );
@@ -15,3 +22,35 @@ insert into demo(id, name) values (1, 'test1');
 insert into demo(id, name) values (2, 'test2');
 insert into demo(id, name) values (3, 'test3');
 insert into demo(id, name) values (4, 'test4');
+
+
+insert into demo1(id, name) values (1, 'test5');
+insert into demo1(id, name) values (4, 'test6');
+insert into demo1(id, name) values (3, 'test7');
+insert into demo1(id, name) values (8, 'test8');
+
+-- select 
+select * from demo;
+select * from demo1;
+
+-- CTE
+
+with greater_than_two as (
+    select *
+    from demo
+    where id > 2)
+select * from greater_than_two
+
+-- Create VIEW
+create view greater_than_two3 as
+    select * from demo
+    where id > 2;
+
+-- select from the view
+select * from greater_than_two3;
+
+-- Inner join beetwen the view and the table.
+
+select * from greater_than_two3 g
+inner join demo1 d
+    on g.id = d.id;
