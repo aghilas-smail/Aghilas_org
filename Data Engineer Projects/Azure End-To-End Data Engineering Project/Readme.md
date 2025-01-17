@@ -4,6 +4,20 @@ Ce projet est une solution de pipeline d'ingénierie de données à un problème
 
 Ce projet répond à un besoin critique de l'entreprise en construisant un pipeline de données complet sur Azure. L'objectif est d'extraire les données relatives aux clients et aux ventes d'une base de données SQL, de les transformer dans et de générer des informations exploitables par un tableau de bord Power BI. Le tableau de bord mettra en évidence les indicateurs clés de performance (KPI) liés à la répartition par sexe et aux ventes par catégorie de produits, permettant aux parties prenantes de filtrer et d'analyser les données par date, par catégorie de produits et par sexe.
 
+### Table des Matières
+
+1. [Azure End-To-End Data Engineering Project](#azure-end-to-end-data-engineering-project)
+2. [Partie Base de donnée](#partie-base-de-donnée)
+3. [Partie Création des ressources nécessaires](#partie-création-des-ressources-nécessaires)
+4. [Liée Data Factory avec la base de données](#liée-data-factory-avec-la-base-de-données)
+5. [Query pour interagir avec la DB](#query-pour-interagir-avec-la-db)
+6. [Migration des données](#migration-des-données)
+7. [Partie Databricks](#partie-databricks)
+   - [Partie connection entre Databricks et Data Lake](#partie-connection-entre-databricks-et-data-lake)
+   - [Partie contenaire bronze au contenaire silver](#partie-contenaire-bronze-au-contenaire-silver)
+8. [Partie contenaire silver au gold](#partie-contenaire-silver-au-gold)
+
+
 ## Partie Base de donnée:
 
 Créer un compte Azure : Commencez par créer un compte Azure gratuit sur le site suivant : Azure Portal.
