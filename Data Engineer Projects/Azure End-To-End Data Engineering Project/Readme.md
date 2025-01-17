@@ -32,6 +32,8 @@ Importer la base de données dans SSMS : Après avoir téléchargé la base de d
 
 ## Query pour interagire avec la DB:
 
+La requete que on utiliser pour importer les données depuis le serveur SQL de microsoft vers Data factory.
+
 <!-- SELECT 
 s.name AS SchemaName, 
 t.Name AS TableName
@@ -39,6 +41,11 @@ FROM sys.tables t
 INNER JOIN sys.schemas s
 ON t.schema_id = s.schema_id
 WHERE s.name = 'SalesLT' -->
+
+Voila un screen:
+
+
+![screen de SSMS vers Datafactory][def1] 
 
 ## Migration des données.
 
@@ -59,3 +66,4 @@ WHERE s.name = 'SalesLT' -->
 ### Partie contenaire silve au gold:
 
 [def]: Images/bronze_to_silver.png
+[def1]: Images/SSMS_DataFactory.png
