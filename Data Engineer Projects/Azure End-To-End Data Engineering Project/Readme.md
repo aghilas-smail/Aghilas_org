@@ -44,12 +44,13 @@ WHERE s.name = 'SalesLT' -->
 
 Voila un screen:
 
-
-![screen de SSMS vers Datafactory][def1] 
+![screen de SSMS vers Datafactory][def1]
 
 ## Migration des données.
 
 - Les données sont bien copée de SQL server vers azure data lake notamment le contenaire bronze.
+- Voila un screen du contenaire bronze :
+![Tables dans le contenaire bronze][def2]
 - Maintenant la prochaine étape ca sera d'utiliser databricks pour faire des transformation.
 
 ## Partie Databricks.
@@ -67,3 +68,4 @@ Voila un screen:
 
 [def]: Images/bronze_to_silver.png
 [def1]: Images/SSMS_DataFactory.png
+[def2]: Images/Contenaire_Bronze.png
