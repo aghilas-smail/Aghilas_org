@@ -60,10 +60,21 @@ Voila un screen:
 
 ### Partie connection entre databrics et data lake:
 
+Dans cette partie on va utiliser databricks pour transformé les données de la base de données importé.
+- Une chose important a faire est de données accée a databricks pour interagir avec le data factory pour recuperer les données qui sont stocker
+dans le contenaire bronze.
+- Aprés cette etape on va transformer la data de tables qui sont dans la base de données, Puis en ingecter les nouvelle données dans le contenaire silver.
 ### Partie contenaire bronze au contenaire silver:
+
+Vous retrouver le code dans un notebook qui explique comment on peut acceder au data factory, faire la tronsformation de la date et enfin stocké les nouvelles 
+données dans le contenaire selver.
 
 ![Description de l'image][def]
 
 ### Partie contenaire silve au gold:
+- Dans cette partie on continue le meme processuce de transformation mais cette fois, on va ce concentrer sur transformer les colonnes de tous les tables de 
+majuscule vers miniscul.
 
+Une fonction a été implementer pour faire ce travaile de transformation, vous trouver tous le code dans un notebook (silver_to_gold).
+une fois la tronsformation est terminer on stock les nouvelle données dans le contenaire gold.
 [def]: Images/bronze_to_silver.png
