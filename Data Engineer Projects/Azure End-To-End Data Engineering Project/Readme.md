@@ -1,13 +1,7 @@
-# Azure End-To-End Data Engineering Project
-
-Ce projet est une solution de pipeline d'ingénierie de données à un problème commercial inventé.
-
-Ce projet répond à un besoin critique de l'entreprise en construisant un pipeline de données complet sur Azure. L'objectif est d'extraire les données relatives aux clients et aux ventes d'une base de données SQL, de les transformer dans et de générer des informations exploitables par un tableau de bord Power BI. Le tableau de bord mettra en évidence les indicateurs clés de performance (KPI) liés à la répartition par sexe et aux ventes par catégorie de produits, permettant aux parties prenantes de filtrer et d'analyser les données par date, par catégorie de produits et par sexe.
-
-### Table des Matières
+# Table des Matières
 
 1. [Azure End-To-End Data Engineering Project](#azure-end-to-end-data-engineering-project)
-2. [Partie Base de donnée](#partie-base-de-donnée)
+2. [Partie 1 : Base de donnée](#partie_1_:_base_de_donnée)
 3. [Partie Création des ressources nécessaires](#partie-création-des-ressources-nécessaires)
 4. [Liée Data Factory avec la base de données](#liée-data-factory-avec-la-base-de-données)
 5. [Query pour interagir avec la DB](#query-pour-interagir-avec-la-db)
@@ -18,7 +12,16 @@ Ce projet répond à un besoin critique de l'entreprise en construisant un pipel
 8. [Partie contenaire silver au gold](#partie-contenaire-silver-au-gold)
 
 
-## Partie Base de donnée:
+## Azure End-To-End Data Engineering Project
+
+Ce projet est une solution de pipeline d'ingénierie de données à un problème commercial inventé.
+
+Ce projet répond à un besoin critique de l'entreprise en construisant un pipeline de données complet sur Azure. L'objectif est d'extraire les données relatives aux clients et aux ventes d'une base de données SQL, de les transformer dans et de générer des informations exploitables par un tableau de bord Power BI. Le tableau de bord mettra en évidence les indicateurs clés de performance (KPI) liés à la répartition par sexe et aux ventes par catégorie de produits, permettant aux parties prenantes de filtrer et d'analyser les données par date, par catégorie de produits et par sexe.
+
+
+
+
+## Partie 1 : Base de donnée
 
 Créer un compte Azure : Commencez par créer un compte Azure gratuit sur le site suivant : Azure Portal.
 
@@ -28,15 +31,54 @@ Télécharger une base de données existante : Vous pouvez télécharger un exem
 
 Importer la base de données dans SSMS : Après avoir téléchargé la base de données de votre choix, importez-la dans SSMS pour qu'elle soit visible et exploitable dans le logiciel.
 
-## Partie Création des ressources necessaires :
+## Partie 2 : Création des ressources necessaires :
 
 - Crée un resource groupe qui va contenaire tous nous ressources pour réaliser ce projet.
 - Commencent par le Data factory.
 - Ensuit le data lake Gen2.
 - Aprés il faut crée une ressource pour databricks.
 - Et enfin crée une ressource pour Synapse.
+- Et pour finir, telecharger le logiciel Power BI pour la partie visualisation des données dans des rapport.
 
-## Liée Data factory avec la base de données:
+## Partie 3 : Copée les données depuis SQL server vers le Data Lake Gen 2:
+### Creation des secret dans KeyVault :
+
+#### 1. Création des conteneurs dans le Data Lake Gen2
+Pour commencer, configurez le service Azure Data Lake Gen2. Dans la section des conteneurs, créez trois conteneurs avec les noms suivants :
+
+bronze : Pour stocker les données brutes.
+silver : Pour les données transformées intermédiaires.
+gold : Pour les données prêtes à être consommées.
+Ces conteneurs serviront à organiser les données en fonction de leur état dans le pipeline d'ingénierie.
+
+#### 2. Configuration des clés et secrets dans Azure Key Vault
+Azure Key Vault sera utilisé pour sécuriser les données et gérer les accès aux informations sensibles stockées dans le Data Lake.
+
+##### Étape 2.1 : Création de clés dans Key Vault
+Accédez au service Azure Key Vault.
+Naviguez vers l'onglet Keys.
+Générer une clé d'encryption qui sera utilisée pour sécuriser les données sensibles dans le Data Lake.
+
+##### Étape 2.2 : Création d'un utilisateur pour Key Vault
+Naviguez dans l'onglet Access Policies ou Access Control (IAM).
+Créez un utilisateur avec les rôles nécessaires pour interagir avec le Key Vault et les autres ressources Azure.
+Générer un username et un password pour cet utilisateur.
+##### Étape 2.3 : Définition des rôles nécessaires
+Avant de créer des secrets, il est essentiel d'ajouter les permissions appropriées à l'utilisateur et aux services qui interagiront avec Key Vault. Voici les rôles à assigner :
+
+Key Vault Administrator : Pour gérer le cycle de vie des clés et secrets.
+Storage Blob Data Contributor : Pour accéder et gérer les données dans le Data Lake.
+
+#### 3. Création des secrets dans Key Vault
+Dans l'onglet Secrets, créez les secrets nécessaires pour stocker des informations comme :
+
+Les chaînes de connexion pour le Data Lake.
+Les mots de passe des services.
+Les clés API des autres intégrations (le cas échéant).
+Configurez ces secrets pour qu’ils soient accessibles uniquement par les utilisateurs ou services autorisés.
+
+### Pipline dans data factory :
+Une fois que la creation du username et password a été fait. il est temps de crée un pipline dans data factory qui va nous permettre de ce connecter a notre sql server.
 
 - Crée une key dans SSMS avec cette commande :
   create login luke with password = '123456789'
