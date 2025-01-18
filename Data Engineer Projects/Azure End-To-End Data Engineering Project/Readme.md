@@ -1,7 +1,7 @@
 # Table des Matières
 
 1. [Azure End-To-End Data Engineering Project](#azure-end-to-end-data-engineering-project)
-2. [Partie 1 : Base de donnée](#partie_1_:_base_de_donnée)
+2. [Partie 1 : Base de donnée](#partie-1--base-de-donnée)
 3. [Partie Création des ressources nécessaires](#partie-création-des-ressources-nécessaires)
 4. [Liée Data Factory avec la base de données](#liée-data-factory-avec-la-base-de-données)
 5. [Query pour interagir avec la DB](#query-pour-interagir-avec-la-db)
