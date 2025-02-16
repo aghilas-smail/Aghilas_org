@@ -1,0 +1,59 @@
+-- -- Table region
+-- CREATE TABLE IF NOT EXISTS region(
+--     code_region INT NOT NULL PRIMARY KEY, 
+--     nom_region VARCHAR(50) NOT NULL
+-- );
+
+-- -- Table commune
+-- CREATE TABLE commune(
+--     id_commune VARCHAR(5) NOT NULL,
+--     code_region INT NOT NULL,
+--     code_departement VARCHAR(3) NOT NULL,
+--     nom_commune VARCHAR(50) NOT NULL,
+--     PRIMARY KEY (id_commune),
+--     FOREIGN KEY (code_region) REFERENCES region(code_region)
+--     ON DELETE NO ACTION
+--     ON UPDATE NO ACTION
+-- );
+
+-- -- Table populationn (à renommer en "population" ?)
+-- CREATE TABLE populationn(
+--     id_commune VARCHAR(5) NOT NULL, 
+--     code_region INT NOT NULL, 
+--     population_municipale INT,
+--     population_comptee_a_part INT,
+--     PRIMARY KEY (id_commune, code_region),
+--     FOREIGN KEY (id_commune) REFERENCES commune(id_commune),
+--     FOREIGN KEY (code_region) REFERENCES region(code_region)
+--     ON DELETE NO ACTION
+--     ON UPDATE NO ACTION
+-- );
+
+-- -- Table bien
+-- CREATE TABLE bien(
+--     id_bien INT NOT NULL,
+--     id_commune VARCHAR(5) NOT NULL,
+--     type_local VARCHAR(30) NOT NULL, 
+--     surface_carrez FLOAT NOT NULL,
+--     surface_reelle INT NOT NULL,
+--     nombre_pieces INT NOT NULL, 
+--     PRIMARY KEY (id_bien, id_commune),
+--     FOREIGN KEY (id_commune) REFERENCES commune(id_commune)
+--     ON DELETE NO ACTION
+--     ON UPDATE NO ACTION
+-- );
+
+-- -- Table vente
+-- CREATE TABLE vente(
+--     id_vente INT NOT NULL,
+--     id_bien INT NOT NULL,
+--     id_commune VARCHAR(5) NOT NULL,
+--     date_vente DATE NOT NULL,
+--     valeur_vente INT NOT NULL,
+--     PRIMARY KEY (id_vente, id_bien),
+--     FOREIGN KEY (id_bien, id_commune) REFERENCES bien(id_bien, id_commune)
+--     ON DELETE NO ACTION
+--     ON UPDATE NO ACTION
+-- );
+
+ALTER TABLE commune ALTER COLUMN nom_commune TYPE character varying(255);
