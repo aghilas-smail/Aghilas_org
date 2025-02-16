@@ -1,10 +1,11 @@
--- -- Table region
+-- Table region
 -- CREATE TABLE IF NOT EXISTS region(
---     code_region INT NOT NULL PRIMARY KEY, 
---     nom_region VARCHAR(50) NOT NULL
+--     code_region INT NOT NULL, 
+--     nom_region VARCHAR(50) NOT NULL,
+--     PRIMARY KEY (code_region)
 -- );
 
--- -- Table commune
+-- Table commune
 -- CREATE TABLE commune(
 --     id_commune VARCHAR(5) NOT NULL,
 --     code_region INT NOT NULL,
@@ -16,7 +17,7 @@
 --     ON UPDATE NO ACTION
 -- );
 
--- -- Table populationn (à renommer en "population" ?)
+-- Table populationn (à renommer en "population" ?)
 -- CREATE TABLE populationn(
 --     id_commune VARCHAR(5) NOT NULL, 
 --     code_region INT NOT NULL, 
@@ -29,12 +30,12 @@
 --     ON UPDATE NO ACTION
 -- );
 
--- -- Table bien
+-- Table bien
 -- CREATE TABLE bien(
 --     id_bien INT NOT NULL,
 --     id_commune VARCHAR(5) NOT NULL,
 --     type_local VARCHAR(30) NOT NULL, 
---     surface_carrez FLOAT NOT NULL,
+--     surface_carrez DOUBLE PRECISION NOT NULL,
 --     surface_reelle INT NOT NULL,
 --     nombre_pieces INT NOT NULL, 
 --     PRIMARY KEY (id_bien, id_commune),
@@ -43,7 +44,7 @@
 --     ON UPDATE NO ACTION
 -- );
 
--- -- Table vente
+-- Table vente
 -- CREATE TABLE vente(
 --     id_vente INT NOT NULL,
 --     id_bien INT NOT NULL,
@@ -56,4 +57,11 @@
 --     ON UPDATE NO ACTION
 -- );
 
-ALTER TABLE commune ALTER COLUMN nom_commune TYPE character varying(255);
+-- ALTER TABLE commune ALTER COLUMN nom_commune TYPE character varying(255);
+
+-- Utiliser le type TEXT pour les colonnes qui peuvent contenir des valeurs très longues
+-- ALTER TABLE bien
+-- ALTER COLUMN surface_carrez TYPE TEXT;
+
+ALTER TABLE vente
+ALTER COLUMN valeur_vente DROP NOT NULL;
