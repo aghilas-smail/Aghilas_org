@@ -1,0 +1,3 @@
+COPY region (code_region, nom_region)
+FROM 'C:\\Users\\aghil\\Desktop\\Aghilas_org\\Projets Data analyst\\BD immobilier\\tables\\region.csv'
+WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');

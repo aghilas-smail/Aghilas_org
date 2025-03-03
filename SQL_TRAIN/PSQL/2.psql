@@ -49,8 +49,20 @@ create view greater_than_two3 as
 -- select from the view
 select * from greater_than_two3;
 
--- Inner join beetwen the view and the table.
+-- Inner join beetwen the view and a table. view = object
 
 select * from greater_than_two3 g
 inner join demo1 d
     on g.id = d.id;
+
+-- insert in a view
+
+insert into greater_than_two3 values (9, 'test9')
+-- When we insert values in a view, the value will be added to the table as well.
+select * from greater_than_two3;
+select * from demo;
+
+-- ALTER (Add column on a talbe)
+
+alter view if exists greater_than_two3
+    rename to greater_than_two3_new;

@@ -1,0 +1,34 @@
+Table region {
+  code_region INTEGER [primary key]
+  nom_region VARCHAR(40) 
+}
+
+Table commune {
+  id_commune VARCHAR(5) [primary key]
+  code_region INTEGER [ref: > region.code_region]
+  code_departement VARCHAR(3)
+  nom_commune VARCHAR(50)
+}
+
+Table population {
+  id_commune VARCHAR(5) [ref: > commune.id_commune]
+  code_region INTEGER [ref: > region.code_region]
+  population_municipale INTEGER
+  population_comptee_a_part INTEGER
+}
+
+Table vente {
+  id_vente INTEGER [primary key]
+  id_bien INTEGER [ref: > bien.id_bien]
+  date_vente DATE
+  valeur_vente INTEGER
+}
+
+Table bien {
+  id_bien INTEGER [primary key]
+  id_commune VARCHAR(5) [ref: > commune.id_commune]
+  type_local VARCHAR(30)
+  surface_carrez FLOAT
+  surface_reelle INTEGER
+  nombre_pieces INTEGER
+}

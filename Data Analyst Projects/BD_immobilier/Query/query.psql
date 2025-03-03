@@ -1,0 +1,10 @@
+-- Nombre de biens vendus au premier semestre 2020
+
+ select count(b.id_bien) AS nombre_appartements_vendu_s1_2020
+	from bien b
+		join
+		vente v on b.id_bien = v.id_bien
+	where b.type_local = 'Appartement' and
+		v.date_vente between '2020-01-01' and '2020-06-30';
+
+-- Nombre de biens vendus au premier semestre 2020 par région

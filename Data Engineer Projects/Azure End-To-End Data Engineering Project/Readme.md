@@ -63,6 +63,7 @@ Générer une clé d'encryption qui sera utilisée pour sécuriser les données 
 Naviguez dans l'onglet Access Policies ou Access Control (IAM).
 Créez un utilisateur avec les rôles nécessaires pour interagir avec le Key Vault et les autres ressources Azure.
 Générer un username et un password pour cet utilisateur.
+
 ##### Étape 2.3 : Définition des rôles nécessaires
 Avant de créer des secrets, il est essentiel d'ajouter les permissions appropriées à l'utilisateur et aux services qui interagiront avec Key Vault. Voici les rôles à assigner :
 
@@ -77,7 +78,7 @@ Les mots de passe des services.
 Les clés API des autres intégrations (le cas échéant).
 Configurez ces secrets pour qu’ils soient accessibles uniquement par les utilisateurs ou services autorisés.
 
-### Pipline dans data factory :
+### Pipline dans data factory : 40 min
 Une fois que la creation du username et password a été fait. il est temps de crée un pipline dans data factory qui va nous permettre de ce connecter a notre sql server.
 
 - Crée une key dans SSMS avec cette commande :
